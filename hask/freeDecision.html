@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+<body>
+<h1 id="decision-trees-are-free-monads-over-the-reader-functor">Decision Trees Are Free Monads Over the Reader Functor</h1>
+<p>Clay Thomas</p>
+<h2 id="motivation">Motivation</h2>
+<p><code>Free f a</code>, the free monad over a given functor <code>f</code> is often described as &quot;trees which branch in the shape of <code>f</code> and are leaf-labeled by <code>a</code>&quot;. What exactly does this mean? Well, the definition of <code>Free</code> is:</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">data</span> <span class="dt">Free</span> f a
+  <span class="fu">=</span> <span class="dt">Pure</span> a
+  <span class="fu">|</span> <span class="dt">Free</span> (f (<span class="dt">Free</span> f a))</code></pre>
+<p>So if we have a functor <code>data Pair a = Pair a a</code>, we indeed have <code>Free Pair a</code> representing ordinary leaf labeled, nonempty binary trees.</p>
+<p>Now, if you know about decision trees, &quot;leaf labeled&quot; should catch your ear. (Binary) decision trees are trees where each node represents a yes/no feature about some observation. The leafs of the tree are labeled with distributions. To predict, you descend the tree according to an observation, and the distribution you reach at the bottom is your best guess at the distribution for your new observation.</p>
+<p>So if we want to fit a monad <code>Free f a</code> to the task of a decision tree, it is clear that <code>a</code> should represent the distribution you are predicting. For the sake of simplicity, we will simply set <code>a</code> to <code>Bool</code> and will just guess a yes or no, as opposed to providing percentages.</p>
+<p>Our choice of <code>f</code> is a little less clear. We need to read in some information from an observation, say of type <code>r</code>, and descend into the next level of the tree. Well, speaking of reading information, what about the reader functor <code>(-&gt;) r</code>! If we try <code>f = (-&gt;) r</code>, we get</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">data</span> <span class="dt">Free</span> (<span class="ot">-&gt;</span> r) <span class="dt">Bool</span>
+  <span class="fu">=</span> <span class="dt">Pure</span> <span class="dt">Bool</span>
+  <span class="fu">|</span> <span class="dt">Free</span> (r <span class="ot">-&gt;</span> <span class="dt">Free</span> (<span class="ot">-&gt;</span> r) <span class="dt">Bool</span>)</code></pre>
+<p>This looks like exactly what we want! We fix a row type <code>r</code>, and when provided new rows we can traverse through internal <code>Free</code> nodes until we reach a leaf <code>Pure</code> node. So, we define</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="co">-- | A model with row type `r` and class label type `c`</span>
+<span class="kw">type</span> <span class="dt">TreeM</span> r c <span class="fu">=</span> <span class="dt">Free</span> ((<span class="ot">-&gt;</span>) r) c</code></pre>
+<h2 id="recursion-combinators">Recursion Combinators</h2>
+<p>The observation presented here is hardly earth-shattering, but it does come with some advantages other than &quot;hey, a connection!&quot;. But adapting some recursive combinators (which typically act on the <code>Fix</code> data type) we can separate the recursive logic of our program from the actual computation. The goal of recursion combinators is to standardize patterns in recursion and make their implementations cleaner.</p>
+<p><code>Free f a</code> is strikingly similar to the type <code>Fix f</code>, the fixed point of the functor <code>f</code>. Recall</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">newtype</span> <span class="dt">Fix</span> f <span class="fu">=</span> <span class="dt">Fix</span> {<span class="ot"> unFix ::</span> f (<span class="dt">Fix</span> f) }</code></pre>
+<p>Essentially, <code>Free</code> allows us to stop our infinite, <code>f</code>-branching tree early and return a <code>Pure</code> value of type <code>a</code>. In many applications, the real result of this is that the functors <code>f</code> that you use with <code>Fix</code> are more complicated than those you use with <code>Free</code> because with <code>Fix</code> you need to embed the notion of returning data into your base functor. (For example, we could model <code>Free f a</code> itself using <code>Fix</code> with a base functor <code>data Br f a r = Either a (f r) deriving Functor</code>, and get <code>Free f a === Fix (Br f a)</code>.)</p>
+<p>For <code>Fix</code>, catamorphisms and anamorphisms are very useful recursion combinators, which respectively collapse and grow a recursive structure:</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="co">-- | Tear down a recursive structure, i.e. an element of Fix f.</span>
+<span class="co">--   First we recursively tear down each of the subtrees in the </span>
+<span class="co">--   first level of the fixed point. Then we collapse the </span>
+<span class="co">--   last layer using the algebra directly.</span>
+<span class="ot">cata ::</span> <span class="dt">Functor</span> f <span class="ot">=&gt;</span> (f a <span class="ot">-&gt;</span> a)    <span class="co">-- ^ A algebra to collapse a container to a value</span>
+                  <span class="ot">-&gt;</span> <span class="dt">Fix</span> f         <span class="co">-- ^ A recursive tree of containers to start with</span>
+                  <span class="ot">-&gt;</span> a
+cata alg fix <span class="fu">=</span> alg <span class="fu">.</span> fmap (cata alg) <span class="fu">.</span> unFix <span class="fu">$</span> fix
+
+<span class="co">-- | Build up a recursive structure, i.e. an element of Fix f.</span>
+<span class="co">--   We first expand our seed by one step.</span>
+<span class="co">--   Then we map over the resultant container,</span>
+<span class="co">--   recursively expanding each value along the way.</span>
+<span class="ot">ana ::</span> <span class="dt">Functor</span> f <span class="ot">=&gt;</span> (a <span class="ot">-&gt;</span> f a)     <span class="co">-- ^ A function to expand an a</span>
+                 <span class="ot">-&gt;</span> a              <span class="co">-- ^ A seed value to start off with</span>
+                 <span class="ot">-&gt;</span> <span class="dt">Fix</span> f
+ana grow seed <span class="fu">=</span> <span class="dt">Fix</span> <span class="fu">.</span> fmap (ana grow) <span class="fu">.</span> grow <span class="fu">$</span> seed</code></pre>
+<p>It is pretty easy to extend <code>cata</code> to work on <code>Free</code> instead of <code>Fix</code>, we just need to add a case for <code>Pure</code>:</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">cataF ::</span> <span class="dt">Functor</span> f <span class="ot">=&gt;</span> (f a <span class="ot">-&gt;</span> a) <span class="ot">-&gt;</span> <span class="dt">Free</span> f a <span class="ot">-&gt;</span> a
+cataF alg (<span class="dt">Free</span> u) <span class="fu">=</span> alg <span class="fu">.</span> fmap (cataF alg) <span class="fu">$</span> u
+cataF _ (<span class="dt">Pure</span> a) <span class="fu">=</span> a</code></pre>
+<p>It is somewhat harder to logically extend ana. Indeed, the exact same code that worked for Fix works for free, it just always builds infinite trees and never allows <code>Pure</code>. Thus the input function has to allow for the possibility of a <code>Pure</code> value:</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">anaF ::</span> <span class="dt">Functor</span> f <span class="ot">=&gt;</span> (a <span class="ot">-&gt;</span> <span class="dt">Either</span> (f a) b) <span class="ot">-&gt;</span> a <span class="ot">-&gt;</span> <span class="dt">Free</span> f b
+anaF grow seed
+  <span class="fu">=</span> <span class="kw">case</span> grow seed <span class="kw">of</span>
+         <span class="dt">Left</span> u <span class="ot">-&gt;</span> <span class="dt">Free</span> <span class="fu">.</span> fmap (anaF grow) <span class="fu">$</span> u
+         <span class="dt">Right</span> b <span class="ot">-&gt;</span> <span class="dt">Pure</span> b</code></pre>
+<h2 id="the-hard-work">The Hard Work</h2>
+<p>We start with a preamble to equip some convenient language extensions and import the needed libraries. Then we define our table data type and some simplified accessor functions.</p>
+<p>What follows is complete and valid Haskell can be run on a modern GHC. You need only the code below this point, along with our definitions of <code>cataF</code> and <code>anaF</code> above. You can also snag the code <a href="decPost.hs">here</a>.</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="co">{-# LANGUAGE RankNTypes</span>
+<span class="co">           , RelaxedPolyRec</span>
+<span class="co">           , DeriveFunctor</span>
+<span class="co">           , TupleSections</span>
+<span class="co">           , ScopedTypeVariables</span>
+<span class="co">           , UndecidableInstances</span>
+<span class="co">  #-}</span>
+<span class="kw">import qualified</span> <span class="dt">Data.List</span> <span class="kw">as</span> <span class="dt">List</span>
+<span class="kw">import qualified</span> <span class="dt">Data.MultiSet</span> <span class="kw">as</span> <span class="dt">Set</span>
+<span class="kw">import qualified</span> <span class="dt">Data.Map</span> <span class="kw">as</span> <span class="dt">Map</span>
+<span class="kw">import </span><span class="dt">Control.Monad.Free</span>
+
+
+<span class="co">-- | value = Bool will suffice for this code, but </span>
+<span class="co">-- more general Tables are certainly reasonable</span>
+<span class="kw">data</span> <span class="dt">Table</span> key value <span class="fu">=</span> <span class="dt">Table</span>
+  {<span class="ot"> keys ::</span> [key]
+      <span class="co">-- ^ For iterating and looping purposes</span>
+  ,<span class="ot"> rows ::</span> <span class="dt">Set.MultiSet</span> (value, <span class="dt">Row</span> key value)
+      <span class="co">-- ^ An unordered collection of Rows associated to labels</span>
+  } <span class="kw">deriving</span>(<span class="dt">Show</span>)
+
+<span class="kw">type</span> <span class="dt">Row</span> key value <span class="fu">=</span> <span class="dt">Map.Map</span> key value
+
+<span class="ot">numKeys ::</span> <span class="dt">Table</span> k v <span class="ot">-&gt;</span> <span class="dt">Int</span>
+numKeys <span class="fu">=</span> length <span class="fu">.</span> keys
+
+<span class="ot">numRows ::</span> <span class="dt">Table</span> k v <span class="ot">-&gt;</span> <span class="dt">Int</span>
+numRows <span class="fu">=</span> Set.size <span class="fu">.</span> rows
+
+<span class="co">--Assume all tables are full</span>
+<span class="ot">getKey ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> k <span class="ot">-&gt;</span> <span class="dt">Row</span> k v <span class="ot">-&gt;</span> v
+getKey k row
+  <span class="fu">=</span> maybe undefined id (Map.lookup k row)
+
+<span class="ot">emptyBinTable ::</span> <span class="dt">Table</span> key value
+emptyBinTable <span class="fu">=</span> <span class="dt">Table</span> [] Set.empty</code></pre>
+<p>Now, the learning method of decision trees is (roughly) the following:</p>
+<ol style="list-style-type: decimal">
+<li>If there are no keys in the table, return a model that predicts the most common class label.</li>
+<li>If there are keys, find the key that best predicts the class label.</li>
+<li>Split the data into two new tables based on the value of that key.</li>
+<li>Recursively grow a decision tree for the two new data sets.</li>
+<li>Put the two new trees together into a model that first predicts based on the best key, then predicts based on the recursive, new trees.</li>
+</ol>
+<p>The following code implements several tools we will need:</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell">
+<span class="co">-- | We score the keys by how many labels the key could get correct.</span>
+<span class="co">-- This method returns two values: the first is if the model applied a </span>
+<span class="co">-- positive correlation, the second is if it assumes a negative correlation.</span>
+<span class="ot">scores ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> k <span class="ot">-&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> (<span class="dt">Int</span>, <span class="dt">Int</span>)
+scores k tab <span class="fu">=</span> Set.fold (indicator k) ((,<span class="dv">0</span>) <span class="dv">0</span>) <span class="fu">$</span> rows tab
+  <span class="kw">where</span><span class="ot"> indicator ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> k <span class="ot">-&gt;</span> (<span class="dt">Bool</span>, <span class="dt">Row</span> k <span class="dt">Bool</span>) <span class="ot">-&gt;</span> (<span class="dt">Int</span>,<span class="dt">Int</span>) <span class="ot">-&gt;</span> (<span class="dt">Int</span>,<span class="dt">Int</span>)
+        indicator k (label, row) (pos, neg)
+          <span class="fu">=</span> <span class="kw">case</span> Map.lookup k row <span class="kw">of</span>
+                 <span class="dt">Just</span> a <span class="ot">-&gt;</span> (pos <span class="fu">+</span> fromEnum (label<span class="fu">==</span>a), neg <span class="fu">+</span> fromEnum (label<span class="fu">/=</span>a))
+                 <span class="dt">Nothing</span> <span class="ot">-&gt;</span> (pos, neg)
+
+<span class="co">-- | Loop over all the keys and find the one that predicts with highest accuracy</span>
+<span class="ot">bestKey ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> k
+bestKey tab
+  <span class="fu">=</span> <span class="kw">let</span> bestScore k
+          <span class="fu">=</span> <span class="kw">let</span> (pos, neg) <span class="fu">=</span> scores k tab
+             <span class="kw">in</span> (k, max pos neg)
+        maxScores <span class="fu">=</span> fmap bestScore (keys tab)
+        (bestKey, _)
+          <span class="fu">=</span> List.maximumBy (\(_,s) (_,s&#39;) <span class="ot">-&gt;</span> s <span class="ot">`compare`</span> s&#39;) maxScores
+     <span class="kw">in</span> bestKey
+
+<span class="ot">removeKey ::</span> (<span class="dt">Ord</span> k, <span class="dt">Ord</span> v) <span class="ot">=&gt;</span> k <span class="ot">-&gt;</span> <span class="dt">Table</span> k v <span class="ot">-&gt;</span> <span class="dt">Table</span> k v
+removeKey k tab <span class="fu">=</span>
+  emptyBinTable
+    { keys <span class="fu">=</span> (<span class="dt">List</span><span class="fu">.</span>\\) (keys tab) [k]
+    , rows <span class="fu">=</span> Set.map (\(lab,row) <span class="ot">-&gt;</span> (lab, Map.delete k row)) (rows tab)
+    }
+
+<span class="co">-- | Split a table into two tables based on the value of one key.</span>
+<span class="co">-- Also remove the key from the new tables.</span>
+<span class="ot">filterOn ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> k <span class="ot">-&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> (<span class="dt">Table</span> k <span class="dt">Bool</span>, <span class="dt">Table</span> k <span class="dt">Bool</span>)
+filterOn k tab
+  <span class="fu">=</span> <span class="kw">let</span> kTrue <span class="fu">=</span> getKey k <span class="fu">.</span> snd <span class="co">-- ^ predicate to test if key k is true for some row</span>
+        trueRows <span class="fu">=</span> Set.filter kTrue (rows tab)
+        falseRows <span class="fu">=</span> Set.filter (not <span class="fu">.</span> kTrue) (rows tab)
+     <span class="kw">in</span> (removeKey k tab{rows <span class="fu">=</span> trueRows}, removeKey k tab{rows <span class="fu">=</span> falseRows})
+
+<span class="co">-- | Ignore all the rows and just guess a boolean based on class label</span>
+<span class="ot">bestGuess ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Bool</span>
+bestGuess tab
+  <span class="fu">=</span> <span class="kw">let</span> nTrue <span class="fu">=</span> Set.fold (\(b,_) accum <span class="ot">-&gt;</span> accum <span class="fu">+</span> fromEnum b) <span class="dv">0</span> (rows tab)
+        <span class="co">-- ^ count number of true labels</span>
+     <span class="kw">in</span> <span class="kw">if</span> <span class="dv">2</span> <span class="fu">*</span> nTrue <span class="fu">&gt;=</span> numRows tab
+           <span class="kw">then</span> <span class="dt">True</span>
+           <span class="kw">else</span> <span class="dt">False</span></code></pre>
+<p>These are all straightforward things that we would probably implement if we were writing this algorithm without recursion combinators.</p>
+<h2 id="applying-our-recursion-combinators">Applying our Recursion Combinators</h2>
+<p>Now that we have some functions to manipulate and extract information out of our tables, we are ready to learn our models and predict with them. We write the function <code>discriminate</code> to fit the type signature of <code>anaF</code>. This function accepts a table and returns one of two things:</p>
+<ul>
+<li><p>If the table contains only class labels, we return a single Bool that represents our best guess of the class label.</p></li>
+<li><p>If the table still has some keys, we return a mapping. This mapping takes in any row, and returns a split of the data based on the value of <code>bestKey</code> within the row.</p></li>
+</ul>
+<p>Recall that <code>anaF :: Functor f =&gt; (a -&gt; Either (f a) b) -&gt; a -&gt; Free f b</code> and that <code>type TreeM r c = Free ((-&gt;) r) c</code>. When we apply <code>anaF</code> to <code>discriminate</code>, it has the effect of recursing over the newly created tables, crowing more models until we hit the base case of a table with only class labels.</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">discriminate ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Either</span> (<span class="dt">Row</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span>) <span class="dt">Bool</span>
+discriminate tab
+  <span class="fu">|</span> numKeys tab <span class="fu">==</span> <span class="dv">0</span>
+    <span class="fu">=</span> <span class="dt">Right</span> <span class="fu">$</span> bestGuess tab
+  <span class="fu">|</span> otherwise
+    <span class="fu">=</span> <span class="kw">let</span> key <span class="fu">=</span> bestKey tab
+          (trueTab, falseTab) <span class="fu">=</span> filterOn key tab
+       <span class="kw">in</span> <span class="dt">Left</span> <span class="fu">$</span> \row <span class="ot">-&gt;</span>
+          <span class="kw">let</span> bool <span class="fu">=</span> getKey key row
+           <span class="kw">in</span> <span class="kw">if</span> bool <span class="kw">then</span> trueTab <span class="kw">else</span> falseTab
+
+<span class="co">-- | Finally time to use this!</span>
+<span class="kw">type</span> <span class="dt">TreeM</span> r c <span class="fu">=</span> <span class="dt">Free</span> ((<span class="ot">-&gt;</span>) r) c
+
+<span class="ot">learn ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">TreeM</span> (<span class="dt">Row</span> k <span class="dt">Bool</span>) <span class="dt">Bool</span>
+learn <span class="fu">=</span> anaF discriminate
+
+<span class="co">--cataF :: Functor f =&gt; (f a -&gt; a) -&gt; Free f a -&gt; a</span>
+<span class="ot">predict ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Row</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">TreeM</span> (<span class="dt">Row</span> k <span class="dt">Bool</span>) <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Bool</span>
+predict row model <span class="fu">=</span> cataF (<span class="fu">$</span> row) model</code></pre>
+<p>Now we are done! All the work paid off with very, very short definitions for <code>learn</code> and <code>predict</code>. Keep in mind that before <code>learn</code> and <code>predict</code>, nothing we had written involved recursion at all.</p>
+<h2 id="extensions">Extensions</h2>
+<p>By changing <code>discriminate</code>, we change our learning method. Using <code>anaF</code> adds some constraints on how we can learn our model, but still allows some freedom. Here are some possible avenues for extending and improving our models:</p>
+<ul>
+<li><p>We could test whether the inference gained at a given node is statistically significant, for example with a chi squared test. If the key is not a significant predictor at that level, we can stop growing our decision tree early and return our best guess at that stage. This would help prevent overfitting.</p></li>
+<li><p>We could add fields to our table data type and set them when we split at each step of the recursion. For example, we could add a counter that prevents the tree from growing past a certain height (again, this combats overfitting). Alternatively, if we have some prior belief that certain variables work well together as predictors, we may want these variables to be close together in the decision tree. By storing the &quot;splitting key&quot; of the parent node, we could implement this in <code>discriminate</code>.</p></li>
+<li><p>The rows can be extended to hold non-Boolean data without changing the data type of our model very much. <code>discriminate</code> can grow the branchings with any function from rows to new training tables. If the complexity of each step of inference grows, we just need to make this branching function more complicated.</p></li>
+<li><p>The current model is totally deterministic. Recently, there has been some work in elegantly and efficiently adding probabilistic programming to Haskell (for example <a href="http://dl.acm.org/citation.cfm?id=2804317">here</a>), but these methods seem mostly suited to learning parametric models. Perhaps recursion combinators (or a similar idea) are one way to elegantly learn nonparametric models whose structure needs to be determined dynamically.</p></li>
+<li><p>It is not clear how to give the learning method control over multiple levels of the hierarchy. We could add information about the parent nodes, but we cannot go back and change them based on new information. A common learning method for decision trees is to grow out a few levels at once and decide between them, and this would be difficult to simulate in the current framework. With a <a href="http://comonad.com/reader/2009/recursion-schemes/">wealth</a> of recursion combinators out there, one may capture this idea very well.</p></li>
+</ul>
+<h2 id="appendix-a-printable-interface">Appendix: A Printable Interface</h2>
+<p>It is hard to verify if the above information is correct because we cannot (sensibly) print out functions in Haskell. The following code fixes this by providing a datatype for the branching instead of relying on functions. This provides much less flexibility in how we do branching, but allows us to print things! The following implements the exact same algorithm as above:</p>
+<pre class="sourceCode haskell"><code class="sourceCode haskell">
+<span class="kw">data</span> <span class="dt">Branch</span> k r <span class="fu">=</span> <span class="dt">Branch</span>
+  {<span class="ot"> key ::</span> k
+  ,<span class="ot"> bTrue ::</span> r
+  ,<span class="ot"> bFalse ::</span> r
+  } <span class="kw">deriving</span>(<span class="dt">Show</span>, <span class="dt">Functor</span>)
+
+<span class="ot">discriminate&#39; ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Either</span> (<span class="dt">Branch</span> k (<span class="dt">Table</span> k <span class="dt">Bool</span>)) <span class="dt">Bool</span>
+discriminate&#39; tab
+  <span class="fu">|</span> numKeys tab <span class="fu">==</span> <span class="dv">0</span>
+    <span class="fu">=</span> <span class="dt">Right</span> <span class="fu">$</span> bestGuess tab
+  <span class="fu">|</span> otherwise
+    <span class="fu">=</span> <span class="kw">let</span> goodKey <span class="fu">=</span> bestKey tab
+          (keyTrueTab, keyFalseTab) <span class="fu">=</span> filterOn goodKey tab
+       <span class="kw">in</span> <span class="dt">Left</span> <span class="fu">$</span> <span class="dt">Branch</span>
+            { key <span class="fu">=</span> goodKey
+            , bTrue <span class="fu">=</span> keyTrueTab
+            , bFalse <span class="fu">=</span> keyFalseTab
+            }
+
+<span class="ot">learn&#39; ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Table</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Free</span> (<span class="dt">Branch</span> k) <span class="dt">Bool</span>
+learn&#39; <span class="fu">=</span> anaF discriminate&#39;
+
+<span class="ot">predict&#39; ::</span> <span class="dt">Ord</span> k <span class="ot">=&gt;</span> <span class="dt">Row</span> k <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Free</span> (<span class="dt">Branch</span> k) <span class="dt">Bool</span> <span class="ot">-&gt;</span> <span class="dt">Bool</span>
+predict&#39; row model <span class="fu">=</span> cataF phi model
+  <span class="kw">where</span> phi br
+          <span class="fu">=</span> <span class="kw">case</span> getKey (key br) row <span class="kw">of</span>
+                 <span class="dt">True</span> <span class="ot">-&gt;</span> bTrue br
+                 <span class="dt">False</span> <span class="ot">-&gt;</span> bFalse br</code></pre>
+</body>
+</html>
