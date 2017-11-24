@@ -1,0 +1,50 @@
+body,html {
+  height:100%;
+  margin: 0;
+}
+.header-image img {
+  width: 100%;
+  max-height: 100px;
+}
+.contents {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  height: 100%;
+  margin-bottom: 50px;
+}
+.day {
+  margin-top: 60px;
+}
+.day h1 {
+  margin-bottom:0px;
+}
+.day p {
+  margin-top:0px;
+}
+cite {
+  break-inside: avoid;
+  counter-increment: reference;
+  display: block;
+  font-style: normal;
+  margin-left: 2.5em;
+  position: relative;
+  text-align: left; 
+}
+cite::before {
+  content: "[" counter(reference) "]";
+  display: inline-block;
+  margin-left: -2.5em;
+  position: absolute; 
+}
+cite a {
+  text-decoration: none; 
+}
+.abstract {
+  margin-left: 4.5em;
+  margin-right: 1.5em;
+  font-size: 9pt;
+}
+.abstract p {
+  margin-bottom: 2pt;
+}

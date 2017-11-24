@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>cs182 Notes and Exercises</title>
+		<style type="text/css">
+			#content {
+				max-width: 800px;
+				margin: auto;
+			}
+			.day {
+				padding-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<header>
+				Created by Clay Thomas 
+			</header>
+			<div class="day">
+				<h1>Functions</h1>
+				<p> 
+					Functions are simply rules for taking values and produceing new ones. Specifically, a function from a set A to B takes an arbitrary a in A and produces a single b in B.
+				<p> 
+					A few definitions:
+					<ul>
+						<li>The domain of a function is the set of input values.</li>
+						<li>The codomain is the set that the function maps into.</li>
+						<li>The image (sometimes range) is the subset of the codomain for which some input actually produces that output.</li>
+						<li>A function is injective (one-to-one) when f(a)=f(b) implies a=b.</li>
+						<li>A function is surjective (onto) if its image is the entire codomain.</li>
+						<li>A function is bijective if it is injective and surjective.</li>
+						<li>Let <code>id</code> stand for the identity function on any set, ie the function such that <code>id x = x</code> for every <code>x</code></li>
+					</ul>
+				<p>
+					Now for exercises and important results:
+					<ul>
+						<li>If <code>f:A -> B</code> is surjective, there exists a map <code>g:B -> A</code> with <code>g(f(a))=a</code>.</li>
+						<li>If <code>f:A -> B</code> is injective, there exists a map <code>g:B -> A</code> with <code>f(g(b))=b</code></li>
+						<li>If <code>f:A -> B</code> is bijective, there exists a unique map <code>g:B -> A</code> with <code>f(g(b))=b</code> and <code>g(f(a))=a</code>. </li>
+						<li>Every function <code>f:A -> B</code> can be expressed as <code>f = i . b . s</code>, where <code>i</code> is injective, <code>b</code> is bijective, and <code>s</code> is surjective. </li>
+					</ul>
+
+			</div>
+		</div>
+	</body>
+</html>

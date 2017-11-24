@@ -1,0 +1,321 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Midterm 1 Review
+\end_layout
+
+\begin_layout Section
+Relations
+\end_layout
+
+\begin_layout Standard
+Classify whether the following relations are symetric, transitive, reflexive,
+ or antisymetric.
+ If they are equivalence relations, partial orders, or total orders, state
+ so.
+ If they are equivalence relations, describe the equivalence classes.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $fRg\Longleftrightarrow(f-g)(x)>0$
+\end_inset
+
+ for all 
+\begin_inset Formula $x\in\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $(a,b)R(c,d)\Longleftrightarrow ad=bd$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $(a,b)R(c,d)\Longleftrightarrow ac=bd$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Given a relation 
+\begin_inset Formula $\trianglelefteq$
+\end_inset
+
+ that is known to be reflexive and transitive (but not necesarily antisymetic
+ or anything else), let 
+\begin_inset Formula $aRb\Longleftrightarrow a\trianglelefteq b\wedge b\trianglelefteq a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $fRg\Longleftrightarrow f\mathrm{\ is\ }O(g)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Proofs
+\end_layout
+
+\begin_layout Standard
+Prove (using whatever technique you deam best, but be rigorous (no Venn
+ Diagrams)) the following:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Sigma_{k=1}^{N}k^{p}$
+\end_inset
+
+ is 
+\begin_inset Formula $\Theta(N^{p+1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\frac{x^{4}+2x^{2}+5}{x^{4}+1}$
+\end_inset
+
+ is 
+\begin_inset Formula $O(1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $(x+y)^{n}=\Sigma_{k=0}^{n}{n \choose k}x^{n-k}y^{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $|x+y|\le|x|+|y|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $k^{2}$
+\end_inset
+
+ is even, 
+\begin_inset Formula $k$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A-B\subseteq A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $A\cap(B\cup C)=(A\cap B)\cup(A\cap C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $(p\wedge q)\vee(p\wedge\neg q)\to p$
+\end_inset
+
+ is a tautology.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $(p\vee q)\wedge(p\to r)\to q\vee r$
+\end_inset
+
+ is a tautology.
+ Also state the equivalent rule of deduction.
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $a|x$
+\end_inset
+
+ and 
+\series bold
+
+\begin_inset Formula $a|y$
+\end_inset
+
+
+\series default
+, then 
+\begin_inset Formula $a|(bx+cy)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $n$
+\end_inset
+
+ is composite, 
+\begin_inset Formula $n$
+\end_inset
+
+ has a prime factor 
+\begin_inset Formula $p\le\sqrt{n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Misc
+\end_layout
+
+\begin_layout Standard
+Evaluate the following (with justification)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\Sigma_{i=4}^{n}2i^{2}+4i+1$
+\end_inset
+
+ for 
+\begin_inset Formula $n\ge4$
+\end_inset
+
+.
+ You may take the formulas for the sum of the powers as given.
+\end_layout
+
+\begin_layout Enumerate
+Consider 
+\begin_inset Formula $a_{n}=\frac{1}{2}a_{n-1}$
+\end_inset
+
+ (with general base case 
+\begin_inset Formula $a_{o}=c$
+\end_inset
+
+).
+ Find 
+\begin_inset Formula $\Pi_{k=0}^{N}a_{k}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $f(x)=\sin(x)$
+\end_inset
+
+.
+ Find 
+\begin_inset Formula $f(\mathbb{R})$
+\end_inset
+
+ and 
+\begin_inset Formula $f^{-1}([0,1))=f^{-1}(\{x|0\le x<1\})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Express the following statement using quantifiers: One is the unique multiplicat
+ive identity (the number such that ax=x).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Are there integers 
+\begin_inset Formula $x,y,z$
+\end_inset
+
+ such that 
+\begin_inset Formula $6x+9y+15z=107$
+\end_inset
+
+? 
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,242 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Sums and Products
+\end_layout
+
+\begin_layout Author
+Clay Thomas
+\end_layout
+
+\begin_layout Standard
+For the sake of sake of concreteness, you can define the sum of an array
+ as follows.
+\end_layout
+
+\begin_layout LyX-Code
+sum([]) = 0
+\end_layout
+
+\begin_layout LyX-Code
+sum([x1,x2...xn]) = x1 + sum [x2...xn]
+\end_layout
+
+\begin_layout Standard
+It's may be useful to consider and prove some formal properties of sums.
+ For example, if 
+\begin_inset Formula $S$
+\end_inset
+
+ is a finite indexing set,
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i\in S}a_{i}+b_{i}=(\Sigma_{i\in S}a_{i})+(\Sigma_{i\in S}b_{i})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i\in S}ka_{i}=k\Sigma_{i\in S}a_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i\in S}a_{i}=\Sigma_{j\in T}a_{f(j)}$
+\end_inset
+
+ if 
+\begin_inset Formula $f:T\to S$
+\end_inset
+
+ is a bijection
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i=0}^{N}i=\frac{1}{2}N(N+1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i=0}^{N}i^{2}=\frac{1}{6}N(2N+1)(N+1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i=0}^{N}i^{3}=\frac{1}{4}N^{2}(N+1)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This one has several corollaries.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i=0}^{N}r^{i}=\frac{1-r^{N+1}}{1-r}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i=0}^{\infty}r^{i}=\frac{1}{1-r}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Using Taylor Series and using finite geometric series.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Next try some products and open-ended sums.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Pi_{k=1}^{N}a^{k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Pi_{k=10}^{30}a^{k}/b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lim_{n\to\infty}\frac{1}{n}\Sigma_{k=0}^{n-1}e^{k/n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i=0}^{10}\Sigma_{j=0}^{i}(i+2j+1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{i=0}^{100}\Sigma_{j=0}^{100}(i+j)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now for some difficult sums that can be done using tricks etc.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Telescoping
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{n=2}^{\infty}\frac{1}{n(n+1)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{n=2}^{\infty}\frac{2n+1}{n^{4}+2n^{3}+n^{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{n=1}^{\infty}\frac{n}{2^{n}}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,333 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Induction and Recursion
+\end_layout
+
+\begin_layout Author
+Clay Thomas
+\end_layout
+
+\begin_layout Standard
+Let's just take a casual look at some pseudo-code that implements induction.
+\end_layout
+
+\begin_layout LyX-Code
+--A tree is either a Nil (zero node tree, aka null)
+\end_layout
+
+\begin_layout LyX-Code
+--or it holds an a along with a left and right subtree
+\end_layout
+
+\begin_layout LyX-Code
+data Tree a = Nil 
+\end_layout
+
+\begin_layout LyX-Code
+            | Tree a (Tree a) (Tree a)
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout LyX-Code
+--Simply count the nodes
+\end_layout
+
+\begin_layout LyX-Code
+numNodes :: Tree a → Int 
+\end_layout
+
+\begin_layout LyX-Code
+numNodes Nil = 0 
+\end_layout
+
+\begin_layout LyX-Code
+numNodes (Tree a left right)
+\end_layout
+
+\begin_layout LyX-Code
+  = 1 + numNodes left + numNodes right
+\end_layout
+
+\begin_layout LyX-Code
+ 
+\end_layout
+
+\begin_layout LyX-Code
+--Count the nodes without any children
+\end_layout
+
+\begin_layout LyX-Code
+numLeaves :: Tree a → Int 
+\end_layout
+
+\begin_layout LyX-Code
+numLeaves Nil = 0 
+\end_layout
+
+\begin_layout LyX-Code
+numLeaves (Tree a Nil Nil) = 1 
+\end_layout
+
+\begin_layout LyX-Code
+numLeaves (Tree a left right)
+\end_layout
+
+\begin_layout LyX-Code
+  = numLeaves left + numLeaves right
+\end_layout
+
+\begin_layout LyX-Code
+ 
+\end_layout
+
+\begin_layout LyX-Code
+--Find the length of the longest path from the root
+\end_layout
+
+\begin_layout LyX-Code
+height :: Tree a → Int 
+\end_layout
+
+\begin_layout LyX-Code
+height Nil = (-1)
+\end_layout
+
+\begin_layout LyX-Code
+height (Tree a left right)
+\end_layout
+
+\begin_layout LyX-Code
+  = 1 + max (height left) (height right)
+\end_layout
+
+\begin_layout Standard
+Each of the above functions uses recursion.
+ Recursion and induction work hand in had.
+ Induction builds up complicated theorems from small foundational steps.
+ Recursion reduces complicated problems to simple base cases.
+ 
+\end_layout
+
+\begin_layout Standard
+Recursion is not just 
+\series bold
+a 
+\series default
+way to solve problems in computer science, it is 
+\series bold
+the 
+\series default
+way to solve problems in computer science.
+ Your first thoughts when approaching a task should always be 
+\begin_inset Quotes eld
+\end_inset
+
+how can I make this task smaller.
+\begin_inset Quotes erd
+\end_inset
+
+ If you can phrase a big problem in terms of a smaller instance of itself,
+ you have an opportunity to use recursion.
+\end_layout
+
+\begin_layout Section
+Structural Induction
+\end_layout
+
+\begin_layout Standard
+First, try so called 
+\begin_inset Quotes eld
+\end_inset
+
+structural induction
+\begin_inset Quotes erd
+\end_inset
+
+ which is when you induct on a data structure instead of on a natural number.
+\end_layout
+
+\begin_layout Subsection
+Quicksort
+\end_layout
+
+\begin_layout Standard
+Quicksort is a sorting algorithm that uses the following rough algorithm:
+\end_layout
+
+\begin_layout Enumerate
+Pick a 
+\begin_inset Quotes eld
+\end_inset
+
+pivot value
+\begin_inset Quotes erd
+\end_inset
+
+ and remove it from the list.
+\end_layout
+
+\begin_layout Enumerate
+Filter all the other values into two lists, 
+\begin_inset Quotes eld
+\end_inset
+
+less
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+greater
+\begin_inset Quotes erd
+\end_inset
+
+, according to whether they are less than or equal to the pivot, or greater
+ than the pivot.
+\end_layout
+
+\begin_layout Enumerate
+Quicksort less and greater.
+\end_layout
+
+\begin_layout Enumerate
+Your result is the list that contains less, then the pivot, then greater,
+ in that order.
+\end_layout
+
+\begin_layout Standard
+Argue for the correctness of quicksort and specify the necessary base cases.
+\end_layout
+
+\begin_layout Subsection
+Tree Functions
+\end_layout
+
+\begin_layout Standard
+For each of the function provided in the introduction, prove or provide
+ an argument that each function works correctly.
+\end_layout
+
+\begin_layout Standard
+Furthermore, show that 
+\begin_inset Formula $numLeaves(T)\le2^{height(T)}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Mathematical Induction
+\end_layout
+
+\begin_layout Standard
+Induction usually works on a sequence of natural numbers, as in the following
+ proofs:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Sigma_{k=1}^{n}k^{3}=\big(\Sigma_{k=1}^{n}k\big)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $1\cdot2\cdot3+2\cdot3\cdot4+...+n(n+1)(n+2)=\frac{n(n+1)(n+2)(n+3)}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is often difficult to come up with the answer to a recursion-type problem
+ and prove its correctness at the same time.
+ Try to derive a 
+\begin_inset Quotes eld
+\end_inset
+
+closed form
+\begin_inset Quotes erd
+\end_inset
+
+ expression for the following sequence, then prove your answer.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{n}=3a_{n-1}+4n$
+\end_inset
+
+ in terms of 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

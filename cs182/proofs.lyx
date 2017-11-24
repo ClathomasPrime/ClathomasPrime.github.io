@@ -1,0 +1,305 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Proofs Techniques
+\end_layout
+
+\begin_layout Author
+Clay Thomas
+\end_layout
+
+\begin_layout Section
+Direct Proofs
+\end_layout
+
+\begin_layout Standard
+Direct proofs are the most simple and intuitive of proofs.
+ Simply assume 
+\begin_inset Formula $p$
+\end_inset
+
+, then demonstrate that 
+\begin_inset Formula $q$
+\end_inset
+
+ must hold, and you have show 
+\begin_inset Formula $p\to q$
+\end_inset
+
+.
+ Always contemplate direct proofs before you think about other techniques.
+\end_layout
+
+\begin_layout Standard
+Examples:
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula ${n \choose r}=\frac{n!}{r!(n-r)!}$
+\end_inset
+
+, then 
+\begin_inset Formula ${n \choose r}+{n \choose r+1}={n+1 \choose r+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $0<a<b$
+\end_inset
+
+, then 
+\begin_inset Formula $a<\sqrt{ab}<\frac{a+b}{2}<b$
+\end_inset
+
+.
+ This one may be slightly less direct than usual, because you may want to
+ start and the results and show that they are equivalent to true (whenever
+ the hypothesis is satisfied).
+\end_layout
+
+\begin_layout Itemize
+The base ten number 
+\begin_inset Formula $a_{n}a_{n-1}...a_{1}a_{0}$
+\end_inset
+
+ is divisible by 
+\begin_inset Formula $3$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $a_{n}+a_{n-1}+...+a_{1}+a_{0}$
+\end_inset
+
+ is divisible by 
+\begin_inset Formula $3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Proof by Contrapositive
+\end_layout
+
+\begin_layout Standard
+In this proof strategy, you prove 
+\begin_inset Formula $\neg q\to\neg p$
+\end_inset
+
+, which is equivalent to 
+\begin_inset Formula $p\to q$
+\end_inset
+
+.
+ This is closely linked to the next section, proof by contradiction.
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $k^{2}$
+\end_inset
+
+ is even, 
+\begin_inset Formula $k$
+\end_inset
+
+ is even.
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $x+y$
+\end_inset
+
+ is even, either 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are both odd or 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ are both even.
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $n\equiv2$
+\end_inset
+
+ or 
+\begin_inset Formula $n\equiv3$
+\end_inset
+
+ mod 4, then 
+\begin_inset Formula $n$
+\end_inset
+
+ is not a perfect square.
+\end_layout
+
+\begin_layout Section
+Proof by Contradiction
+\end_layout
+
+\begin_layout Standard
+Here, you simply assume 
+\begin_inset Formula $\neg p$
+\end_inset
+
+ and derive a contradiction, thus showing 
+\begin_inset Formula $p$
+\end_inset
+
+.
+ More precisely, you must show a derive a contradiction in order to show
+ that 
+\begin_inset Formula $\neg p\to F$
+\end_inset
+
+, which is equivalent to 
+\begin_inset Formula $T\to p\equiv p$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+There are an infinite number of primes (hint: assume otherwise and consider
+ the number 
+\begin_inset Formula $p_{1}\cdot...\cdot p_{n}+1$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+ is irrational unless 
+\begin_inset Formula $a$
+\end_inset
+
+ is an 
+\begin_inset Formula $n^{th}$
+\end_inset
+
+power.
+\end_layout
+
+\begin_layout Section
+Proof by Cases
+\end_layout
+
+\begin_layout Standard
+If we want to show that 
+\begin_inset Formula $p\to q$
+\end_inset
+
+, and can break down our hypothesis into a number of cases such that 
+\begin_inset Formula $p\equiv p_{1}\vee p_{2}\vee...\vee p_{n}$
+\end_inset
+
+, then we can prove 
+\begin_inset Formula $(p_{1}\to q)\wedge(p_{2}\to q)\wedge...\wedge(p_{n}\to q)$
+\end_inset
+
+.
+ This equivalence itself can be proven (by induction if you are feeling
+ fancy).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $|x+y|\le|x|+|y|$
+\end_inset
+
+.
+ Hard way: do a bunch of casework on the sign of x and y and their sum.
+ Easy way: try squaring both sides and use the fact that the square of a
+ number is always nonnegative.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lfloor\frac{x+1}{2}\rfloor-1=\lfloor\frac{x-1}{2}\rfloor$
+\end_inset
+
+.
+ Hint: odd and even numbers behave in different ways when divided by 2.
+\end_layout
+
+\end_body
+\end_document
