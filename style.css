@@ -1,5 +1,4 @@
 body,html {
-  height:100%;
   margin: 0;
 }
 .header-image img {
@@ -12,7 +11,7 @@ body,html {
   margin: auto;
   padding: 20px;
   height: 100%;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .day {
   margin-top: 60px;
@@ -22,6 +21,29 @@ body,html {
 }
 .day p {
   margin-top:0px;
+}
+.page-title {
+  background-color: #074e9f;
+}
+h1 {
+  color: #074e9f;
+}
+h1 span {
+  background-color: white;
+  padding-right: 20px;
+}
+h2 {
+  color: #3872b2;
+}
+h2::before {
+  content: "............";
+  width: 10px;
+  height: 20px;
+  font-size: 70%;
+  background-color: #3872b2;
+}
+h3 {
+  color: #5b8fc9;
 }
 cite {
   break-inside: avoid;
@@ -48,4 +70,8 @@ cite a {
 }
 .abstract p {
   margin-bottom: 2pt;
+}
+.abstract p:first-child::before {
+  content: "Abstract: ";
+  font-weight: bold;
 }
