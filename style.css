@@ -75,3 +75,7 @@ cite a {
   content: "Abstract: ";
   font-weight: bold;
 }
+
+.date {
+  font-weight: bold;
+}
