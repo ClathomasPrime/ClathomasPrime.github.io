@@ -71,9 +71,13 @@ cite a {
 .abstract p {
   margin-bottom: 2pt;
 }
-.abstract p:first-child::before {
+.abstract p:first-of-type::before {
   content: "Abstract: ";
   font-weight: bold;
+}
+
+.links {
+  margin: 0.5em 1.5em 0.5em 4.5em;
 }
 
 .date {

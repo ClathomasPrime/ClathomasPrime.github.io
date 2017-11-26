@@ -46,6 +46,8 @@
         V. Gandikota, E. Grigorescu, C. Thomas, and M. Zhu.
         Maximally recoverable codes: The bounded case.
         In <em>Allerton Conference on Communication, Control, and Computing</em>, 2017.
+        <a href="./papers/boundedMRC.pdf">[paper]</a>
+        <a href="./talks/boundedMRCSlides.pdf">[slides]</a>
       </cite>
       <div class="abstract">
         <p>
@@ -73,7 +75,6 @@
         </p>
       </div>
 
-      <!--
       <h2>
         Projects
       </h2>
@@ -82,6 +83,31 @@
         Verifying Structural Invariants of Programs
       </h3>
 
+      <p>
+        For my Reasoning About Programs course,
+        I've been working on the problem of verifying structural invariants of
+        programs.
+        Our two key examples, and those we've had the most success with,
+        are invariance under the ordering of a list
+        and invariance under equivalent binary search trees.
+        For both of these data types, we've found simple permutations that
+        "generate" all equivalent data types,
+        in the sense that applying those permutations in some order to any data
+        structure can result in all structures equivalent to the input.
+        We also have a more general, sound procedure that can verify the
+        invariance of an arbitrary data type under some underlying
+        representation (for example, a function on binary search trees should be
+        invariant under the function "list" that returns the ordered list
+        corresponding to the tree).
+        However, our procedure includes an inductive synthesizer and an
+        equivalence-of-programs verifier in its inner loop,
+        so it may not be the most practical.
+      </p>
+      <p>
+        Stay tuned in the next few weeks for the writeup!
+      </p>
+
+      <!--
       <h3>
         Trie Combinators for Searching Through ASTs
       </h3>
