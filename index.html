@@ -39,7 +39,9 @@
       </div>
 
       <h2>
-        Publications
+        <span>
+          Publications
+        </span>
       </h2>
 
       <cite id="mrCodesBounded"> 
@@ -76,7 +78,9 @@
       </div>
 
       <h2>
-        Projects
+        <span>
+          Projects
+        </span>
       </h2>
 
       <h3>
@@ -114,7 +118,9 @@
       -->
 
       <h2>
-        Teaching
+        <span>
+          Teaching
+        </span>
       </h2>
       <p>
         I enjoy lecturing and explaining foundational concepts.
@@ -129,8 +135,29 @@
         <a href="cs182/index.html">here</a>.
       </p>
 
+      <h3>
+        Haskell
+      </h3>
+      <p>
+        My manager at Facebook told me that there's an old saying among
+        Haskellers: "The best way to learn monads is to write a monad tutorial,
+        then throw it away" because nobody else will ever find it useful.
+        Personally, I think monad tutorials are a myth.
+        Writing a monad tutorial is like writing a "data structures" tutorial
+        or a "programming patterns" tutorial: way too broad.
+        Anyway, <a href="hask/listMonad.pdf">here's</a> my monad tutorial.
+      </p>
+      <p>
+        I want make some simplified versions of Haskell libraries that are easier
+        to understand so people can learn the concepts of the libraries.
+        <a href="hask/lensExplanation.hs">Here's</a>
+        the start of that project for the Lens library.
+      </p>
+
       <h2>
-        Smaller Independent Projects
+        <span>
+          Smaller Independent Projects
+        </span>
       </h2>
 
       These are all smaller, simpler, code-based projects
@@ -169,7 +196,7 @@
         See the repo for more information.
       </p>
 
-      <h3> Free Decision Trees </h3>
+      <h3> Free Decision Trees &mdash; Library and Blog Post </h3>
       <p>
         <span class="date">
           <a href="hask/freeDecision.html">
@@ -181,6 +208,11 @@
         that the Haskell data type
         <code>Free ((->) r) Bool</code>
         could be used to represent decision trees.
+        The result is a blog-post style explanation of the concept and implementation,
+        which I think is a good way to understand free monads.
+        You can find the reddit discussion
+        <a href="https://www.reddit.com/r/haskell/comments/455u2p/decision_trees_are_free_monads_over_the_reader/">
+          here</a>.
       </p>
 
       <h3> Joy Interpreter </h3>
@@ -224,6 +256,44 @@
         </span>
         A Java application that parses equations,
         symbolically derives them, and plots the result.
+      </p>
+
+      <h2> <span> Other Things </span> </h2>
+
+      <p>
+        <a href="https://github.com/elliottwilliams/wheremeet">Here's</a>
+        a hackathon project I worked on to help you meet your friends at
+        different Purdue dining courts.
+      </p>
+      <p>
+        <a href="misc/probs/fractionFunction.pdf">Here's</a>
+        a Purdue problem of the week from back in the day.
+        <a href="misc/probs/fractionFunctionPlot.pdf">Here</a>
+        is a partial graph of the function constructed,
+        where I enumerated rationals in some simple order
+        and plotted the value of the function there.
+        Seems like the graph is dense in the plane,
+        but I don't think I even knew what "dense"
+        meant at the time.
+      </p>
+      <p>
+        <a href="misc/torusGraph.png">Here's</a>
+        an image I made to explain how to
+        derive an equation of the form <code>z = f(x,y)</code>
+        for the graph of a Torus.
+      </p>
+      <p>
+        <a href="misc/passwordProblem.pdf">Here's</a>
+        a little writeup of a counting problem that
+        I found tough and interesting at the time.
+      </p>
+      <p>
+        <a href="misc/perfectRoll.pdf">Here's</a>
+        a writeup I did when I took physics about the fact that objects always
+        roll down slopes with less acceleration than if they were slipping
+        down the slope without rolling.
+        I also construct shapes with acceleration arbitrarily close to the
+        "slipping acceleration".
       </p>
 
     </div>

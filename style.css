@@ -30,18 +30,24 @@ h1 {
 }
 h1 span {
   background-color: white;
-  padding-right: 20px;
+  padding: 10px 20px 10px 20px;
 }
 h2 {
+  background-color: #3872b2;
+  padding-left: 80px;
+}
+h2 span {
+  background-color: white;
+  padding: 20px;
   color: #3872b2;
 }
-h2::before {
+/*h2::before {
   content: "............";
   width: 10px;
   height: 20px;
   font-size: 70%;
   background-color: #3872b2;
-}
+}*/
 h3 {
   color: #5b8fc9;
 }
