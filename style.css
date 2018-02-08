@@ -6,6 +6,19 @@ body,html {
   max-width: 800px;
   height: auto;
 }
+
+.profile-image {
+  text-align: right;
+}
+
+.profile-image img {
+  margin: -250px 10px -50px auto;
+  max-height: 300px;
+  padding:1px;
+  border:1px solid #021a40;
+  background-color: white;
+}
+
 .contents {
   max-width: 800px;
   margin: auto;
