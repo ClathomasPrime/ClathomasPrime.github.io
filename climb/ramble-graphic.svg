@@ -40,13 +40,13 @@
      inkscape:window-height="744"
      id="namedview5234"
      showgrid="false"
-     inkscape:zoom="0.22627417"
-     inkscape:cx="1683.1463"
-     inkscape:cy="814.73336"
+     inkscape:zoom="0.64"
+     inkscape:cx="577.71075"
+     inkscape:cy="298.88397"
      inkscape:window-x="49"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4" />
+     inkscape:current-layer="g10151" />
   <defs
      id="defs4">
     <marker
@@ -13592,11 +13592,6 @@
              id="g9464"
              transform="translate(164.50079,-3125.515)">
             <path
-               style="fill:#ffffff;stroke:none"
-               inkscape:connector-curvature="0"
-               d="M 7732,8760 0,8760 0,0 l 15463,0 0,8760 -7731,0 z"
-               id="path8992" />
-            <path
                style="fill:none;stroke:#b3b3b3;stroke-width:102;stroke-linejoin:round"
                inkscape:connector-curvature="0"
                d="m 1189,7909 0,-149"
@@ -13793,9 +13788,10 @@
                id="path9070" />
             <text
                class="TextShape"
-               id="text9072">
+               id="text9072"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13804,18 +13800,20 @@
                    class="TextPosition"
                    x="1522"
                    y="8664"
-                   id="tspan9076">
+                   id="tspan9076"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9078">V0</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9080">
+               id="text9080"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13824,18 +13822,20 @@
                    class="TextPosition"
                    x="3062"
                    y="8664"
-                   id="tspan9084">
+                   id="tspan9084"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9086">V1</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9088">
+               id="text9088"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13844,18 +13844,20 @@
                    class="TextPosition"
                    x="4602"
                    y="8664"
-                   id="tspan9092">
+                   id="tspan9092"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9094">V2</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9096">
+               id="text9096"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13864,18 +13866,20 @@
                    class="TextPosition"
                    x="6143"
                    y="8664"
-                   id="tspan9100">
+                   id="tspan9100"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9102">V3</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9104">
+               id="text9104"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13884,18 +13888,20 @@
                    class="TextPosition"
                    x="7683"
                    y="8664"
-                   id="tspan9108">
+                   id="tspan9108"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9110">V4</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9112">
+               id="text9112"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13904,18 +13910,20 @@
                    class="TextPosition"
                    x="9223"
                    y="8664"
-                   id="tspan9116">
+                   id="tspan9116"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9118">V5</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9120">
+               id="text9120"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13924,18 +13932,20 @@
                    class="TextPosition"
                    x="10764"
                    y="8664"
-                   id="tspan9124">
+                   id="tspan9124"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9126">V6</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9128">
+               id="text9128"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13944,18 +13954,20 @@
                    class="TextPosition"
                    x="12304"
                    y="8664"
-                   id="tspan9132">
+                   id="tspan9132"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9134">V7</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9136">
+               id="text9136"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13964,18 +13976,20 @@
                    class="TextPosition"
                    x="13844"
                    y="8664"
-                   id="tspan9140">
+                   id="tspan9140"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9142">V8</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9144">
+               id="text9144"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13984,18 +13998,20 @@
                    class="TextPosition"
                    x="542"
                    y="8009"
-                   id="tspan9148">
+                   id="tspan9148"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9150">0</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9152">
+               id="text9152"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -14004,18 +14020,20 @@
                    class="TextPosition"
                    x="145"
                    y="5595"
-                   id="tspan9156">
+                   id="tspan9156"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9158">10</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9160">
+               id="text9160"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -14024,18 +14042,20 @@
                    class="TextPosition"
                    x="145"
                    y="3180"
-                   id="tspan9164">
+                   id="tspan9164"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9166">20</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                class="TextShape"
-               id="text9168">
+               id="text9168"
+               style="font-size:731.07403305px">
               <tspan
-                 style="font-size:701px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -14044,9 +14064,10 @@
                    class="TextPosition"
                    x="145"
                    y="766"
-                   id="tspan9172">
+                   id="tspan9172"
+                   style="font-size:731.07403305px">
                   <tspan
-                     style="fill:#000000;stroke:none"
+                     style="fill:#000000;stroke:none;font-size:731.07403305px"
                      id="tspan9174">30</tspan>
                 </tspan>
               </tspan>
@@ -14056,11 +14077,6 @@
              style="stroke-width:28.22200012;stroke-linejoin:round"
              id="g9796"
              transform="translate(-2.0518944,6574.6627)">
-            <path
-               id="path9560"
-               d="M 7710,8031 1,8031 1,0 l 15418,0 0,8031 -7709,0 z"
-               inkscape:connector-curvature="0"
-               style="fill:#ffffff;stroke:none" />
             <path
                id="path9562"
                d="m 1354,7135 0,-150"
@@ -14308,324 +14324,356 @@
                style="fill:#ff950e;stroke:none" />
             <text
                id="text9660"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9662"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9664"
                    y="7738"
                    x="1367"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9666"
-                     style="fill:#000000;stroke:none">≤</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">≤</tspan>
                   <tspan
                      id="tspan9668"
-                     style="fill:#000000;stroke:none">5.5</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">5.5</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9670"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9672"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9674"
                    y="7738"
                    x="2716"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9676"
-                     style="fill:#000000;stroke:none">.6</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">.6</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9678"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9680"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9682"
                    y="7738"
                    x="3774"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9684"
-                     style="fill:#000000;stroke:none">.7</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">.7</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9686"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9688"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9690"
                    y="7738"
                    x="4833"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9692"
-                     style="fill:#000000;stroke:none">.8</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">.8</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9694"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9696"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9698"
                    y="7738"
                    x="5891"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9700"
-                     style="fill:#000000;stroke:none">.9</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">.9</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9702"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9704"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9706"
                    y="7738"
                    x="6711"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9708"
-                     style="fill:#000000;stroke:none">10A</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">10A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9710"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9712"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9714"
                    y="7738"
                    x="8061"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9716"
-                     style="fill:#000000;stroke:none">B</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9718"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9720"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9722"
                    y="7738"
                    x="9106"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9724"
-                     style="fill:#000000;stroke:none">C</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9726"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9728"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9730"
                    y="7738"
                    x="10164"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9732"
-                     style="fill:#000000;stroke:none">D</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9734"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9736"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9738"
                    y="7738"
                    x="10944"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9740"
-                     style="fill:#000000;stroke:none">11A</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">11A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9742"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9744"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9746"
                    y="7738"
                    x="12294"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9748"
-                     style="fill:#000000;stroke:none">B</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9750"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9752"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9754"
                    y="7738"
                    x="13339"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9756"
-                     style="fill:#000000;stroke:none">C</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9758"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:522.19573789px">
               <tspan
                  id="tspan9760"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9762"
                    y="7738"
                    x="14397"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:522.19573789px">
                   <tspan
                      id="tspan9764"
-                     style="fill:#000000;stroke:none">D</tspan>
+                     style="fill:#000000;stroke:none;font-size:522.19573789px">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9766"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:731.07403305px">
               <tspan
                  id="tspan9768"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:706px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9770"
                    y="7237"
                    x="707"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:731.07403305px">
                   <tspan
                      id="tspan9772"
-                     style="fill:#000000;stroke:none">0</tspan>
+                     style="fill:#000000;stroke:none;font-size:731.07403305px">0</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9774"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:731.07403305px">
               <tspan
                  id="tspan9776"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:706px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9778"
                    y="4506"
                    x="310"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:731.07403305px">
                   <tspan
                      id="tspan9780"
-                     style="fill:#000000;stroke:none">10</tspan>
+                     style="fill:#000000;stroke:none;font-size:731.07403305px">10</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9782"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:731.07403305px">
               <tspan
                  id="tspan9784"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:706px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9786"
                    y="1775"
                    x="310"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:731.07403305px">
                   <tspan
                      id="tspan9788"
-                     style="fill:#000000;stroke:none">20</tspan>
+                     style="fill:#000000;stroke:none;font-size:731.07403305px">20</tspan>
                 </tspan>
               </tspan>
             </text>
@@ -14634,11 +14682,6 @@
              style="stroke-width:28.22200012;stroke-linejoin:round"
              id="g10151"
              transform="translate(331.82411,15307.197)">
-            <path
-               id="path9915"
-               d="M 7664,8406 1,8406 1,0 l 15326,0 0,8406 -7663,0 z"
-               inkscape:connector-curvature="0"
-               style="fill:#ffffff;stroke:none" />
             <path
                id="path9917"
                d="m 922,7375 0,-150"
@@ -14891,321 +14934,353 @@
                style="fill:#004586;stroke:none" />
             <text
                id="text10017"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10019"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10021"
                    y="7978"
                    x="1200"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10023"
-                     style="fill:#000000;stroke:none">.6</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">.6</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10025"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10027"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10029"
                    y="7978"
                    x="2206"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10031"
-                     style="fill:#000000;stroke:none">.7</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">.7</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10033"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10035"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10037"
                    y="7978"
                    x="3213"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10039"
-                     style="fill:#000000;stroke:none">.8</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">.8</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10041"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10043"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10045"
                    y="7978"
                    x="4219"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10047"
-                     style="fill:#000000;stroke:none">.9</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">.9</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10049"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10051"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10053"
                    y="7978"
                    x="4987"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10055"
-                     style="fill:#000000;stroke:none">10A</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">10A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10057"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10059"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10061"
                    y="7978"
                    x="6285"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10063"
-                     style="fill:#000000;stroke:none">B</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10065"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10067"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10069"
                    y="7978"
                    x="7278"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10071"
-                     style="fill:#000000;stroke:none">C</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10073"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10075"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10077"
                    y="7978"
                    x="8285"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10079"
-                     style="fill:#000000;stroke:none">D</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10081"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10083"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10085"
                    y="7978"
                    x="9013"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10087"
-                     style="fill:#000000;stroke:none">11A</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">11A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10089"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10091"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10093"
                    y="7978"
                    x="10311"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10095"
-                     style="fill:#000000;stroke:none">B</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10097"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10099"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10101"
                    y="7978"
                    x="11304"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10103"
-                     style="fill:#000000;stroke:none">C</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10105"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10107"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10109"
                    y="7978"
                    x="12310"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10111"
-                     style="fill:#000000;stroke:none">D</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10113"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10115"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10117"
                    y="7978"
                    x="13039"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10119"
-                     style="fill:#000000;stroke:none">12A</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">12A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10121"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:574.41531168px">
               <tspan
                  id="tspan10123"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:529px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10125"
                    y="7978"
                    x="14336"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:574.41531168px">
                   <tspan
                      id="tspan10127"
-                     style="fill:#000000;stroke:none">B</tspan>
+                     style="fill:#000000;stroke:none;font-size:574.41531168px">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10129"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:731.07403305px">
               <tspan
                  id="tspan10131"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:706px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10133"
                    y="7477"
                    x="275"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:731.07403305px">
                   <tspan
                      id="tspan10135"
-                     style="fill:#000000;stroke:none">0</tspan>
+                     style="fill:#000000;stroke:none;font-size:731.07403305px">0</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10137"
-               class="TextShape">
+               class="TextShape"
+               style="font-size:731.07403305px">
               <tspan
                  id="tspan10139"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:706px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10141"
                    y="3134"
                    x="275"
-                   class="TextPosition">
+                   class="TextPosition"
+                   style="font-size:731.07403305px">
                   <tspan
                      id="tspan10143"
-                     style="fill:#000000;stroke:none">5</tspan>
+                     style="fill:#000000;stroke:none;font-size:731.07403305px">5</tspan>
                 </tspan>
               </tspan>
             </text>
