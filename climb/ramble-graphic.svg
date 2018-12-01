@@ -34,19 +34,19 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1317"
      inkscape:window-height="744"
      id="namedview5234"
      showgrid="false"
-     inkscape:zoom="0.64"
-     inkscape:cx="577.71075"
-     inkscape:cy="298.88397"
+     inkscape:zoom="0.32"
+     inkscape:cx="15616.098"
+     inkscape:cy="1230.6373"
      inkscape:window-x="49"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g10151" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs4">
     <marker
@@ -80,8 +80,22 @@
   </defs>
   <g
      inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:9.21770859;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6162"
+       width="19060.783"
+       height="2255.8474"
+       x="-449.39789"
+       y="-97.530983" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Even corrected">
+     inkscape:label="Even corrected"
+     style="display:inline">
     <g
        style="fill:#ff5501;fill-opacity:0.15;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
        stroke-miterlimit="10.0"
@@ -13789,9 +13803,9 @@
             <text
                class="TextShape"
                id="text9072"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13801,9 +13815,9 @@
                    x="1522"
                    y="8664"
                    id="tspan9076"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9078">V0</tspan>
                 </tspan>
               </tspan>
@@ -13811,9 +13825,9 @@
             <text
                class="TextShape"
                id="text9080"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13823,9 +13837,9 @@
                    x="3062"
                    y="8664"
                    id="tspan9084"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9086">V1</tspan>
                 </tspan>
               </tspan>
@@ -13833,9 +13847,9 @@
             <text
                class="TextShape"
                id="text9088"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13845,9 +13859,9 @@
                    x="4602"
                    y="8664"
                    id="tspan9092"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9094">V2</tspan>
                 </tspan>
               </tspan>
@@ -13855,9 +13869,9 @@
             <text
                class="TextShape"
                id="text9096"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13867,9 +13881,9 @@
                    x="6143"
                    y="8664"
                    id="tspan9100"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9102">V3</tspan>
                 </tspan>
               </tspan>
@@ -13877,9 +13891,9 @@
             <text
                class="TextShape"
                id="text9104"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13889,9 +13903,9 @@
                    x="7683"
                    y="8664"
                    id="tspan9108"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9110">V4</tspan>
                 </tspan>
               </tspan>
@@ -13899,9 +13913,9 @@
             <text
                class="TextShape"
                id="text9112"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13911,9 +13925,9 @@
                    x="9223"
                    y="8664"
                    id="tspan9116"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9118">V5</tspan>
                 </tspan>
               </tspan>
@@ -13921,9 +13935,9 @@
             <text
                class="TextShape"
                id="text9120"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13933,9 +13947,9 @@
                    x="10764"
                    y="8664"
                    id="tspan9124"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9126">V6</tspan>
                 </tspan>
               </tspan>
@@ -13943,9 +13957,9 @@
             <text
                class="TextShape"
                id="text9128"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13955,9 +13969,9 @@
                    x="12304"
                    y="8664"
                    id="tspan9132"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9134">V7</tspan>
                 </tspan>
               </tspan>
@@ -13965,9 +13979,9 @@
             <text
                class="TextShape"
                id="text9136"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13977,9 +13991,9 @@
                    x="13844"
                    y="8664"
                    id="tspan9140"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9142">V8</tspan>
                 </tspan>
               </tspan>
@@ -13987,9 +14001,9 @@
             <text
                class="TextShape"
                id="text9144"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -13999,9 +14013,9 @@
                    x="542"
                    y="8009"
                    id="tspan9148"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9150">0</tspan>
                 </tspan>
               </tspan>
@@ -14009,9 +14023,9 @@
             <text
                class="TextShape"
                id="text9152"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -14021,9 +14035,9 @@
                    x="145"
                    y="5595"
                    id="tspan9156"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9158">10</tspan>
                 </tspan>
               </tspan>
@@ -14031,9 +14045,9 @@
             <text
                class="TextShape"
                id="text9160"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -14043,9 +14057,9 @@
                    x="145"
                    y="3180"
                    id="tspan9164"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9166">20</tspan>
                 </tspan>
               </tspan>
@@ -14053,9 +14067,9 @@
             <text
                class="TextShape"
                id="text9168"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans"
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans"
                  class="TextParagraph"
                  font-size="701px"
                  font-weight="400"
@@ -14065,9 +14079,9 @@
                    x="145"
                    y="766"
                    id="tspan9172"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
-                     style="fill:#000000;stroke:none;font-size:731.07403305px"
+                     style="font-size:731.07403564px;fill:#000000;stroke:none"
                      id="tspan9174">30</tspan>
                 </tspan>
               </tspan>
@@ -14325,355 +14339,355 @@
             <text
                id="text9660"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9662"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9664"
                    y="7738"
                    x="1367"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9666"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">≤</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">≤</tspan>
                   <tspan
                      id="tspan9668"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">5.5</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">5.5</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9670"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9672"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9674"
                    y="7738"
                    x="2716"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9676"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">.6</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">.6</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9678"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9680"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9682"
                    y="7738"
                    x="3774"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9684"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">.7</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">.7</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9686"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9688"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9690"
                    y="7738"
                    x="4833"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9692"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">.8</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">.8</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9694"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9696"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9698"
                    y="7738"
                    x="5891"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9700"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">.9</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">.9</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9702"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9704"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9706"
                    y="7738"
                    x="6711"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9708"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">10A</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">10A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9710"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9712"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9714"
                    y="7738"
                    x="8061"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9716"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">B</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9718"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9720"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9722"
                    y="7738"
                    x="9106"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9724"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">C</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9726"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9728"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9730"
                    y="7738"
                    x="10164"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9732"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">D</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9734"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9736"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9738"
                    y="7738"
                    x="10944"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9740"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">11A</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">11A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9742"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9744"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9746"
                    y="7738"
                    x="12294"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9748"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">B</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9750"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9752"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9754"
                    y="7738"
                    x="13339"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9756"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">C</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9758"
                class="TextShape"
-               style="font-size:522.19573789px">
+               style="font-size:522.19573975px">
               <tspan
                  id="tspan9760"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:522.19573789px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:522.19573975px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9762"
                    y="7738"
                    x="14397"
                    class="TextPosition"
-                   style="font-size:522.19573789px">
+                   style="font-size:522.19573975px">
                   <tspan
                      id="tspan9764"
-                     style="fill:#000000;stroke:none;font-size:522.19573789px">D</tspan>
+                     style="font-size:522.19573975px;fill:#000000;stroke:none">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9766"
                class="TextShape"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
                  id="tspan9768"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9770"
                    y="7237"
                    x="707"
                    class="TextPosition"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
                      id="tspan9772"
-                     style="fill:#000000;stroke:none;font-size:731.07403305px">0</tspan>
+                     style="font-size:731.07403564px;fill:#000000;stroke:none">0</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9774"
                class="TextShape"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
                  id="tspan9776"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9778"
                    y="4506"
                    x="310"
                    class="TextPosition"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
                      id="tspan9780"
-                     style="fill:#000000;stroke:none;font-size:731.07403305px">10</tspan>
+                     style="font-size:731.07403564px;fill:#000000;stroke:none">10</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text9782"
                class="TextShape"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
                  id="tspan9784"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan9786"
                    y="1775"
                    x="310"
                    class="TextPosition"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
                      id="tspan9788"
-                     style="fill:#000000;stroke:none;font-size:731.07403305px">20</tspan>
+                     style="font-size:731.07403564px;fill:#000000;stroke:none">20</tspan>
                 </tspan>
               </tspan>
             </text>
@@ -14935,352 +14949,352 @@
             <text
                id="text10017"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10019"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10021"
                    y="7978"
                    x="1200"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10023"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">.6</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">.6</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10025"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10027"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10029"
                    y="7978"
                    x="2206"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10031"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">.7</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">.7</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10033"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10035"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10037"
                    y="7978"
                    x="3213"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10039"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">.8</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">.8</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10041"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10043"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10045"
                    y="7978"
                    x="4219"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10047"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">.9</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">.9</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10049"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10051"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10053"
                    y="7978"
                    x="4987"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10055"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">10A</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">10A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10057"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10059"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10061"
                    y="7978"
                    x="6285"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10063"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">B</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10065"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10067"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10069"
                    y="7978"
                    x="7278"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10071"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">C</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10073"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10075"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10077"
                    y="7978"
                    x="8285"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10079"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">D</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10081"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10083"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10085"
                    y="7978"
                    x="9013"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10087"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">11A</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">11A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10089"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10091"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10093"
                    y="7978"
                    x="10311"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10095"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">B</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10097"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10099"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10101"
                    y="7978"
                    x="11304"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10103"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">C</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">C</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10105"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10107"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10109"
                    y="7978"
                    x="12310"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10111"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">D</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">D</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10113"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10115"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10117"
                    y="7978"
                    x="13039"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10119"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">12A</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">12A</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10121"
                class="TextShape"
-               style="font-size:574.41531168px">
+               style="font-size:574.4152832px">
               <tspan
                  id="tspan10123"
                  font-weight="400"
                  font-size="529px"
                  class="TextParagraph"
-                 style="font-size:574.41531168px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:574.4152832px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10125"
                    y="7978"
                    x="14336"
                    class="TextPosition"
-                   style="font-size:574.41531168px">
+                   style="font-size:574.4152832px">
                   <tspan
                      id="tspan10127"
-                     style="fill:#000000;stroke:none;font-size:574.41531168px">B</tspan>
+                     style="font-size:574.4152832px;fill:#000000;stroke:none">B</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10129"
                class="TextShape"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
                  id="tspan10131"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10133"
                    y="7477"
                    x="275"
                    class="TextPosition"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
                      id="tspan10135"
-                     style="fill:#000000;stroke:none;font-size:731.07403305px">0</tspan>
+                     style="font-size:731.07403564px;fill:#000000;stroke:none">0</tspan>
                 </tspan>
               </tspan>
             </text>
             <text
                id="text10137"
                class="TextShape"
-               style="font-size:731.07403305px">
+               style="font-size:731.07403564px">
               <tspan
                  id="tspan10139"
                  font-weight="400"
                  font-size="706px"
                  class="TextParagraph"
-                 style="font-size:731.07403305px;font-weight:400;font-family:Liberation Sans">
+                 style="font-size:731.07403564px;font-weight:400;font-family:Liberation Sans">
                 <tspan
                    id="tspan10141"
                    y="3134"
                    x="275"
                    class="TextPosition"
-                   style="font-size:731.07403305px">
+                   style="font-size:731.07403564px">
                   <tspan
                      id="tspan10143"
-                     style="fill:#000000;stroke:none;font-size:731.07403305px">5</tspan>
+                     style="font-size:731.07403564px;fill:#000000;stroke:none">5</tspan>
                 </tspan>
               </tspan>
             </text>
@@ -15851,58 +15865,23 @@
          sodipodi:role="line"
          x="14750.98"
          y="-109.90327"
-         id="tspan12966">After a brief stop in Colorado, I came to </tspan><tspan
+         id="tspan12966">After visiting some awesome</tspan><tspan
          sodipodi:role="line"
          x="14750.98"
          y="-69.902672"
-         id="tspan12976">Leavenworth with two specific goals:</tspan><tspan
+         id="tspan12976">friends in Colorado, I came to Leavenworth </tspan><tspan
          sodipodi:role="line"
          x="14750.98"
          y="-29.902075"
-         id="tspan12968">Pimpsqueak (v8) and Outer Space (5.10-).</tspan><tspan
+         id="tspan43282">focused on two specific goals:</tspan><tspan
          sodipodi:role="line"
          x="14750.98"
          y="10.098521"
-         id="tspan12970">Both lived up to their awesome reputation!</tspan><tspan
+         id="tspan12968">Pimpsqueak (v8) and Outer Space (5.10-).</tspan><tspan
          sodipodi:role="line"
          x="14750.98"
          y="50.099117"
-         id="tspan12972" /></text>
-    <text
-       xml:space="preserve"
-       style="font-size:32.00047684px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#020000;fill-opacity:0.66666667;stroke:none;font-family:Sans"
-       x="16111.541"
-       y="-115.23242"
-       id="text12984"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="16111.541"
-         y="-115.23242"
-         id="tspan12994">Squamish. Wow. I love that the data kinda speaks for itself here.</tspan><tspan
-         sodipodi:role="line"
-         x="16111.541"
-         y="-75.231827"
-         id="tspan13022">I finally felt like I was close to my trad climbing potential,</tspan><tspan
-         sodipodi:role="line"
-         x="16111.541"
-         y="-35.231232"
-         id="tspan13024">and there were incredible boulders everywhere too!</tspan><tspan
-         sodipodi:role="line"
-         x="16111.541"
-         y="4.7693663"
-         id="tspan13026">Squamish was everything that Yosemite should have been:</tspan><tspan
-         sodipodi:role="line"
-         x="16111.541"
-         y="44.769962"
-         id="tspan13028">trying my best but not pressuring myself and doing tons of long,</tspan><tspan
-         sodipodi:role="line"
-         x="16111.541"
-         y="84.770561"
-         id="tspan13030">beautiful granite crack climbs. Ev</tspan><tspan
-         sodipodi:role="line"
-         x="16111.541"
-         y="124.77116"
-         id="tspan13032" /></text>
+         id="tspan12972">Both lived up to their awesome reputation!</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot13000"
@@ -15953,18 +15932,49 @@
          x="17495.311"
          y="151.75986"
          id="tspan13046" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32.00047684px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#020000;fill-opacity:0.66666667;stroke:none;font-family:Sans"
+       x="16111.541"
+       y="-115.23242"
+       id="text12984"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="16111.541"
+         y="-115.23242"
+         id="tspan12994">Squamish. Wow. I love that the data kinda speaks for itself here.</tspan><tspan
+         sodipodi:role="line"
+         x="16111.541"
+         y="-75.231827"
+         id="tspan13022">I finally felt like I was close to my trad climbing potential,</tspan><tspan
+         sodipodi:role="line"
+         x="16111.541"
+         y="-35.231232"
+         id="tspan13024">and there were incredible boulders everywhere too!</tspan><tspan
+         sodipodi:role="line"
+         x="16111.541"
+         y="4.7693663"
+         id="tspan13026">Squamish was everything that Yosemite should have been:</tspan><tspan
+         sodipodi:role="line"
+         x="16111.541"
+         y="44.769962"
+         id="tspan13028">trying my best but not pressuring myself and doing tons of long,</tspan><tspan
+         sodipodi:role="line"
+         x="16111.541"
+         y="84.770561"
+         id="tspan13032">beautiful granite crack climbs.</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Specific Climbs"
-     style="opacity:1">
+     style="display:inline">
     <g
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g58-2"
        transform="matrix(1.0000117,0,0,1.0000117,1145.3703,150.84968)"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
       <text
          dominant-baseline="text-before-edge"
          transform="translate(474.653,1476.6067)"
@@ -15976,19 +15986,19 @@
        stroke-miterlimit="10.0"
        id="g98-4"
        transform="matrix(1.0000117,0,0,1.0000117,1142.4558,200.39418)"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
       <text
          dominant-baseline="text-before-edge"
          transform="translate(639.1774,1476.6067)"
          id="text100-7"
-         style="text-anchor:start;stroke:none;fill:#000000">[31] Lab Rats (v6)</text>
+         style="text-anchor:start;fill:#000000;stroke:none">[31] Lab Rats (v6)</text>
     </g>
     <g
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g130-5"
        transform="matrix(1.0000117,0,0,1.0000117,1145.3703,150.84968)"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
       <text
          dominant-baseline="text-before-edge"
          transform="translate(885.964,1476.6067)"
@@ -16000,7 +16010,7 @@
        stroke-miterlimit="10.0"
        id="g162-4"
        transform="matrix(1.0000117,0,0,1.0000117,1145.3703,245.56778)"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
       <text
          dominant-baseline="text-before-edge"
          transform="translate(968.2262,1476.6067)"
@@ -16012,7 +16022,7 @@
        stroke-miterlimit="10.0"
        id="g218-8"
        transform="matrix(1.0000117,0,0,1.0000117,1145.3703,198.93718)"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
       <text
          dominant-baseline="text-before-edge"
          transform="translate(1297.2751,1476.6067)"
@@ -16023,7 +16033,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g602-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,218.58203,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16035,7 +16045,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g670-38"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,214.46053,200.30918)">
       <text
          dominant-baseline="text-before-edge"
@@ -16048,7 +16058,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g770-9"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,218.58203,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16061,7 +16071,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g806-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,218.58203,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16073,7 +16083,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g878-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,224.76453,190.00508)">
       <text
          dominant-baseline="text-before-edge"
@@ -16086,7 +16096,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g990-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,218.58203,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16098,7 +16108,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g1010-7"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,369.02133,243.58578)">
       <text
          dominant-baseline="text-before-edge"
@@ -16110,7 +16120,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g1090-0"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,372.69313,192.06508)">
       <text
          dominant-baseline="text-before-edge"
@@ -16123,7 +16133,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g1150-6"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,577.05673,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16135,7 +16145,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g1206-8"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,583.23913,195.33308)">
       <text
          dominant-baseline="text-before-edge"
@@ -16147,7 +16157,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g1330-7"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,577.05673,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16159,7 +16169,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g1870-2"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,570.87433,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16171,7 +16181,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2002-8"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,577.05673,200.30918)">
       <text
          dominant-baseline="text-before-edge"
@@ -16184,7 +16194,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2138-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,568.81353,196.18718)">
       <text
          dominant-baseline="text-before-edge"
@@ -16197,7 +16207,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2238-9"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,379.21873,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16209,7 +16219,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2318-5"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,379.21873,196.18718)">
       <text
          dominant-baseline="text-before-edge"
@@ -16222,7 +16232,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2410-3"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,469.39453,244.43978)">
       <text
          dominant-baseline="text-before-edge"
@@ -16235,7 +16245,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2522-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,379.21873,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16248,7 +16258,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2662-7"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-189.43787,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16260,7 +16270,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2734-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-189.43787,194.56608)">
       <text
          dominant-baseline="text-before-edge"
@@ -16272,7 +16282,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g2814-3"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-192.35227,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16285,7 +16295,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g3086-2"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-591.62887,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16297,7 +16307,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g3246-9"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-591.62887,196.18718)">
       <text
          dominant-baseline="text-before-edge"
@@ -16309,7 +16319,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g3274-4"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-591.62887,8.6529845)">
       <text
          dominant-baseline="text-before-edge"
@@ -16322,7 +16332,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g3650-2"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1506.7591,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16334,7 +16344,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g3702-3"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1506.7591,191.65108)">
       <text
          dominant-baseline="text-before-edge"
@@ -16346,7 +16356,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g3818-0"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1506.7591,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16358,7 +16368,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g3866-0"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1506.7591,232.45358)">
       <text
          dominant-baseline="text-before-edge"
@@ -16370,7 +16380,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g4182-1"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1172.9076,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16394,7 +16404,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g4642-1"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1172.9076,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16406,7 +16416,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g4826-8"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1164.6643,194.12608)">
       <text
          dominant-baseline="text-before-edge"
@@ -16418,7 +16428,7 @@
        font-size="37.01799485861182px"
        stroke-miterlimit="10.0"
        id="g4910-3"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1172.9076,150.84968)">
       <text
          dominant-baseline="text-before-edge"
@@ -16428,7 +16438,7 @@
     </g>
     <g
        transform="matrix(1.0000117,0,0,1.0000117,667.73244,245.64678)"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        id="g12252"
        stroke-miterlimit="10.0"
        font-size="37.01799485861182px">
@@ -16441,7 +16451,7 @@
     </g>
     <g
        transform="matrix(1.0000117,0,0,1.0000117,-928.44937,246.86078)"
-       style="font-size:37.01799393000000293px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:37.01799393px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        id="g12476"
        stroke-miterlimit="10.0"
        font-size="37.01799485861182px">
@@ -16455,7 +16465,7 @@
        font-size="61.69665809768637px"
        stroke-miterlimit="10.0"
        id="g662-9"
-       style="font-size:61.69665908999999715px;opacity:0.68503932999999995;fill:#808080;fill-opacity:0.75000000000000000;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:61.69665909px;opacity:0.68503933;fill:#808080;fill-opacity:0.75;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(0,-1.0000117,1.0000117,0,3406.971,3726.4995)">
       <text
          dominant-baseline="middle"
@@ -16468,7 +16478,7 @@
     <g
        stroke-miterlimit="10.0"
        id="g666-9"
-       style="font-size:1px;opacity:0.68503932999999995;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.50000000000000000;display:inline"
+       style="font-size:1px;opacity:0.68503933;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.5;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,218.58209,150.84965)">
       <path
          d="M 3261.6967,1402.5707 V 137.7892"
@@ -16479,7 +16489,7 @@
        font-size="61.69665809768637px"
        stroke-miterlimit="10.0"
        id="g1142-6"
-       style="font-size:61.69665908999999715px;opacity:0.68503932999999995;fill:#808080;fill-opacity:0.75000000000000000;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:61.69665909px;opacity:0.68503933;fill:#808080;fill-opacity:0.75;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,639.73471,195.89419)">
       <text
          dominant-baseline="middle"
@@ -16490,7 +16500,7 @@
     <g
        stroke-miterlimit="10.0"
        id="g1146-8"
-       style="font-size:1px;opacity:0.68503932999999995;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.50000000000000000;display:inline"
+       style="font-size:1px;opacity:0.68503933;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.5;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,577.05672,150.84965)">
       <path
          d="M 5729.563,1402.5707 V 137.7892"
@@ -16501,7 +16511,7 @@
        font-size="61.69665809768637px"
        stroke-miterlimit="10.0"
        id="g1934-6"
-       style="font-size:61.69665908999999715px;opacity:0.68503932999999995;fill:#808080;fill-opacity:0.75000000000000000;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:61.69665909px;opacity:0.68503933;fill:#808080;fill-opacity:0.75;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(0,-1.0000117,1.0000117,0,8772.9256,8678.6054)">
       <text
          dominant-baseline="middle"
@@ -16514,7 +16524,7 @@
     <g
        stroke-miterlimit="10.0"
        id="g1938-8"
-       style="font-size:1px;opacity:0.68503932999999995;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.50000000000000000;display:inline"
+       style="font-size:1px;opacity:0.68503933;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.5;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,577.05672,150.84965)">
       <path
          d="M 8279.6915,1402.5707 V 137.7892"
@@ -16525,7 +16535,7 @@
        font-size="61.69665809768637px"
        stroke-miterlimit="10.0"
        id="g3078-5"
-       style="font-size:61.69665908999999715px;opacity:0.68503932999999995;fill:#808080;fill-opacity:0.75000000000000000;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:61.69665909px;opacity:0.68503933;fill:#808080;fill-opacity:0.75;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-547.91245,191.65112)">
       <text
          dominant-baseline="middle"
@@ -16536,7 +16546,7 @@
     <g
        stroke-miterlimit="10.0"
        id="g3082-5"
-       style="font-size:1px;opacity:0.68503932999999995;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.50000000000000000;display:inline"
+       style="font-size:1px;opacity:0.68503933;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.5;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-591.62887,150.84965)">
       <path
          d="M 13379.949,1402.5707 V 137.7892"
@@ -16547,7 +16557,7 @@
        font-size="61.69665809768637px"
        stroke-miterlimit="10.0"
        id="g3642-3"
-       style="font-size:61.69665908999999715px;opacity:0.68503932999999995;fill:#808080;fill-opacity:0.75000000000000000;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:61.69665909px;opacity:0.68503933;fill:#808080;fill-opacity:0.75;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1474.6999,200.51624)">
       <text
          dominant-baseline="middle"
@@ -16558,7 +16568,7 @@
     <g
        stroke-miterlimit="10.0"
        id="g3646-6"
-       style="font-size:1px;opacity:0.68503932999999995;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.50000000000000000;display:inline"
+       style="font-size:1px;opacity:0.68503933;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.5;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1506.7591,150.84965)">
       <path
          d="M 15765.553,1402.5707 V 137.7892"
@@ -16569,7 +16579,7 @@
        font-size="61.69665809768637px"
        stroke-miterlimit="10.0"
        id="g4682-3"
-       style="font-size:61.69665908999999715px;opacity:0.68503932999999995;fill:#808080;fill-opacity:0.75000000000000000;stroke:#000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
+       style="font-size:61.69665909px;opacity:0.68503933;fill:#808080;fill-opacity:0.75;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1094.5967,204.43028)">
       <text
          dominant-baseline="middle"
@@ -16580,7 +16590,7 @@
     <g
        stroke-miterlimit="10.0"
        id="g4686-1"
-       style="font-size:1px;opacity:0.68503932999999995;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.50000000000000000;display:inline"
+       style="font-size:1px;opacity:0.68503933;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.5;display:inline"
        transform="matrix(1.0000117,0,0,1.0000117,-1172.9076,150.84965)">
       <path
          d="M 18151.157,1402.5707 V 137.7892"
@@ -16592,7 +16602,7 @@
        stroke-miterlimit="10.0"
        id="g122-2"
        transform="matrix(0,-1.0000117,1.0000117,0,1939.6395,1316.7914)"
-       style="font-size:61.69665908999999715px;stroke:#000000;stroke-opacity:1;display:inline;fill:#808080;fill-opacity:0.75000000000000000;stroke-width:22.20252228000000017;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10">
+       style="font-size:61.69665909px;fill:#808080;fill-opacity:0.75;stroke:#000000;stroke-width:22.20252228;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;display:inline">
       <text
          dominant-baseline="middle"
          transform="matrix(0,1,-1,0,0,0)"
@@ -16605,7 +16615,7 @@
        stroke-miterlimit="10.0"
        id="g126-6"
        transform="matrix(1.0000117,0,0,1.0000117,1145.3703,150.84965)"
-       style="font-size:1px;stroke:#808080;stroke-opacity:0.50000000000000000;display:inline;fill:#000000;fill-opacity:0;stroke-width:2.46786642000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10">
+       style="font-size:1px;fill:#000000;fill-opacity:0;stroke:#808080;stroke-width:2.46786642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:0.5;display:inline">
       <path
          d="M 876.0925,1402.5707 V 137.7892"
          id="path128-1"
