@@ -13,8 +13,8 @@
       </div>
 
       <div class="profile-image">
-        <img src="Profile.jpg" alt="Me, playing around in Rocktown, GA"
-          title="Me, playing around in Rocktown, GA" />
+        <img src="Profile.jpg" alt="Me, hanging around in Rocktown, GA"
+          title="Me, hanging around in Rocktown, GA" />
       </div>
 
       <div class="page-title">
@@ -26,9 +26,9 @@
       </div>
       <div class="preface">
         <p>
-          I'm a PhD student in the Computer Science Theory group at Princeton
-          University. I'm broadly interested in problems with
-          computational applications and an algebraic feel.
+          Hello! I'm a PhD student in the Computer Science Theory group at Princeton.
+          I'm broadly interested in TCS, and
+          recently I've been studying Algorithmic Game Theory.
           I completed my undergrad in Mathematics and Computer Science at
           Purdue University, where I was fortunate to be advised
           by Elena Grigorescu.
@@ -90,102 +90,97 @@
         </span>
       </h2>
 
-      <h3>
-        Verifying Structural Invariants of Programs
-      </h3>
+      <cite id="taxactionComplexitySurvey">
+        <strong> Paper Survey: New Lower Bound Techniques for the Query Complexity of
+        Truthful Mechanisms. </strong>
+        With Uma Girish.
+        For Matt Weinberg's "Open Problems in AGT" course.
+        <a href="./papers/EfficientQueryMechanisms.pdf">[report]</a>
+      </cite>
 
-      <p>
+      <div class="abstract">
+        <p>
+          A survey of "Computational Efficiency Requires Simple
+          Taxation" by Shahar Dobzinski.
+        </p>
+      </div>
+
+      <cite id="nextHopVerification">
+        <strong> You Can't Handle the Lie: Next-Hop Verification in BGP.</strong>
+        With Gavriel Hirsch.
+        For Jennifer Rexford's "Advanced Networking" course.
+        <a href="./papers/NextHopBGP.pdf">[report]</a>
+      </cite>
+
+      <div class="abstract">
+        <p>
+          BGP, the control-plane interdomain routing protocol used in today's
+          internet, is notoriously difficult to secure and verify.
+          This paper presents a new protocol called Next-Hop Verification,
+          which reduces the set of contexts in which autonomous systems are 
+          incentivized to lie while participating in BGP.
+          The protocol works by sharing information
+          about BGP path announcements between different ASs,
+          using the existing structure of the network, and checking 
+          those path announcements against the true flow of
+          traffic in the data plane. We discuss the advantages and
+          disadvantages of this new approach, and compare its effectiveness
+          to that of previously considered verification
+          techniques, focusing on cases where next-hop verification
+          provably eliminates the incentives to lie in BGP.
+          While our protocol is likely not practical, we believe it makes
+          progress towards a more secure version of BGP in which ASs are able to
+          "check each other" to enforce honesty.
+        </p>
+      </div>
+
+      <cite id="structuralInvariants">
+        <strong>Verifying Structural Invariants of Programs.</strong>
+        With Jacob Bond.
+        For Roopsha Samanta's "Reasoning about Programs" course at Purdue.
         <a href="./papers/structuralPerturbations.pdf">[report]</a>
         <a href="./talks/structuralPerturbationsSlides.pdf">[slides]</a>
-      </p>
-      <p>
-        For my Reasoning About Programs course,
-        I've been working on the problem of verifying structural invariants of
-        programs.
-        Our two key examples, and those we've had the most success with,
-        are invariance under the ordering of a list
-        and invariance under equivalent binary search trees.
-        For both of these data types, we've found simple permutations that
-        "generate" all equivalent data types,
-        in the sense that applying those permutations in some order to any data
-        structure can result in all structures equivalent to the input.
-        We also have a more general, sound procedure that can verify the
-        invariance of an arbitrary data type under some underlying
-        representation (for example, a function on binary search trees should be
-        invariant under the function "list" that returns the ordered list
-        corresponding to the tree).
-        However, our procedure includes an inductive synthesizer and an
-        equivalence-of-programs verifier in its inner loop,
-        so it may not be very practical.
-      </p>
+      </cite>
 
-      <!--
-      <h3>
-        Trie Combinators for Searching Through ASTs
-      </h3>
-      -->
-
-      <h2>
-        <span>
-          Teaching
-        </span>
-      </h2>
-      <p>
-        I enjoy lecturing and explaining foundational concepts.
-        Furthermore, I like writing challenging and interesting practice
-        questions for students (including thinking of exercises for myself!).
-      </p>
-      <p>
-        When I TAed for Purdue's "Foundations of computer science" course,
-        I wrote some lecture notes for a few of my "practice, study, observation"
-        sessions and I wrote review materials for the midterm and final.
-        You can find those materials
-        <a href="cs182/index.html">here</a>.
-      </p>
-
-      <h3>
-        Haskell
-      </h3>
-      <p>
-        My manager at Facebook told me that there's an old saying among
-        Haskellers: "The best way to learn monads is to write a monad tutorial,
-        then throw it away" because nobody else will ever find it useful.
-        Personally, I think monad tutorials are a myth.
-        Writing a monad tutorial is like writing a "data structures" tutorial
-        or a "programming patterns" tutorial: way too broad.
-        Anyway, <a href="hask/listMonad.pdf">here's</a> my monad tutorial.
-      </p>
-      <p>
-        I want make some simplified versions of Haskell libraries that are easier
-        to understand so people can learn the concepts of the libraries.
-        <a href="hask/lensExplanation.hs">Here's</a>
-        the start of that project for the Lens library.
-      </p>
-      <p>
-        <a href="hask/freeDecision.html">Here's</a> the "free decision trees"
-        blog post (see project section below).
-      </p>
+      <div class="abstract">
+        <p>
+          A core problem in program verification is checking the invariance of
+          programs under certain transformations. For example, a maximum
+          function should be invariant under the order of a list,
+          and a find function on binary search trees should return the same
+          result for equivalent trees (i.e. those which represent the same
+          ordered list).
+          For both of these data types, we've found simple operations that
+          "generate" all equivalent data types,
+          in the sense that applying those permutations in some order to any data
+          structure can result in all structures equivalent to the input.
+          Thus, checking the invariance of programs for these data types can be
+          reduced to checking their invariance under the more simple
+          "generating" operations. This idea could potentially be useful for
+          reasoning about algebraic data types with a notion of equivalence.
+        </p>
+        <p>
+          We have a more general, sound procedure that can verify the
+          invariance of an arbitrary data type under some underlying
+          representation (for example, a function on binary search trees should be
+          invariant under the function "list" that returns the ordered list
+          corresponding to the tree).
+          However, our procedure includes an inductive synthesizer and an
+          equivalence-of-programs verifier in its inner loop,
+          so it is not likely to be practical.
+        </p>
+      </div>
 
       <h2>
         <span>
-          Smaller Independent Projects
+          Small Projects
         </span>
       </h2>
 
-      These are all smaller, simpler, code-based projects
-      which I wrote independently.
-
-      <h3> Ramsey Languages </h3>
-      <p>
-        <span class="date">
-          <a href="https://github.com/ClathomasPrime/RamseyLangs">
-            January 2017.</a>
-        </span>
-        Haskell implementations of a simple imperative programming language
-        and a simple Lisp.
-        Based on operational semantics from Norman Ramsey's book Programming Languages:
-        Build, Prove, Compare.
-      </p>
+      These are all smaller, simpler, code-based projects which I wrote
+      independently. Some of them contain kernels of ideas which I would like to
+      return to some day, so please contact me if these sound interesting and
+      you would like to work on them!
 
       <h3> Fair Read-Write Locks </h3>
       <p>
@@ -224,51 +219,48 @@
         which I think is a good way to understand free monads.
       </p>
 
-      <h3> Joy Interpreter </h3>
-      <p>
-        <span class="date">
-          <a href="https://github.com/ClathomasPrime/Joy">
-            August 2015.</a>
-        </span>
-        A small, toy interpreter for the stack based functional language 
-        <a href="http://www.latrobe.edu.au/humanities/research/research-projects/past-projects/joy-programming-language">
-          Joy.</a>
-        Written in Haskell.
-      </p>
-
-      <h3> Haskell algorithms </h3>
-      <p>
-        <span class="date">
-          <a href="https://github.com/ClathomasPrime/Haskellrithms">
-            April 2015.</a>
-        </span>
-        Implementations of a heap based priority queue,
-        red-black trees, prefix trie, suffix trie, find-union of sets,
-        and finding minimal spanning trees.
-      </p>
-
-      <h3> ForceBoard </h3>
-      <p>
-        <span class="date">
-          <a href="https://github.com/ClathomasPrime/ForceBoard">
-            2013.</a>
-        </span>
-        A Java application for simulating the motion of objects 
-        influenced by gravity, springs, drag, etc.
-      </p>
-
-      <h3> Simple Deriver </h3>
-      <p>
-        <span class="date">
-          <a href="https://github.com/ClathomasPrime/DiffEqGrapherTwo">
-            2012.</a>
-        </span>
-        A Java application that parses equations,
-        symbolically derives them, and plots the result.
-      </p>
-
       <h2> <span> Other Things </span> </h2>
 
+      <h3> Teaching </h3>
+      <p>
+        I enjoy lecturing and explaining foundational concepts.
+        Furthermore, I like writing challenging and interesting practice
+        questions for students (including thinking of exercises for myself!).
+      </p>
+      <p>
+        When I TAed for Purdue's "Foundations of computer science" course,
+        I wrote some lecture notes for a few of my "practice, study, observation"
+        sessions and I wrote review materials for the midterm and final.
+        You can find those materials
+        <a href="cs182/index.html">here</a>.
+      </p>
+
+      <h3> Haskell </h3>
+      <p>
+        My manager at Facebook told me that there's an old saying among
+        Haskellers: "The best way to learn monads is to write a monad tutorial,
+        then throw it away" because nobody else will ever find it useful.
+        Personally, I think monad tutorials are a myth.
+        Writing a monad tutorial is like writing a "data structures" tutorial
+        or a "programming patterns" tutorial: way too broad.
+        Anyway, <a href="hask/listMonad.pdf">here's</a> my monad tutorial.
+      </p>
+      <p>
+        I want make some simplified versions of Haskell libraries that are easier
+        to understand so people can learn the concepts of the libraries.
+        <a href="hask/lensExplanation.hs">Here's</a>
+        the start of that project for the Lens library.
+      </p>
+
+      <h3> Rock Climbing  </h3>
+      <p>
+        Before starting grad school, I took a gap semester to go on a
+        cross-country rock climbing road trip. I made an 
+        <a href="climb/ramble-graphic.html">infographic</a> attempting
+        to show my progress and some of the highs and lows.
+      </p>
+
+      <h3> Stuff from the distant past </h3>
       <p>
         <a href="https://github.com/elliottwilliams/wheremeet">Here's</a>
         a hackathon project I worked on to help you meet your friends at
