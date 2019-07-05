@@ -1,6 +1,11 @@
 body,html {
   margin: 0;
 }
+
+p {
+  font-size: 1em;
+}
+
 .header-image img {
   width: 100%;
   max-width: 800px;
@@ -86,10 +91,11 @@ cite a {
   margin-left: 4.5em;
   margin-right: 1.5em;
   margin-bottom: 1.5em;
-  font-size: 9pt;
+  font-size: 0.8em;
+  /* font-size: 9pt;*/
 }
 .abstract p {
-  margin-bottom: 2pt;
+  margin-bottom: 0.1em;
 }
 .abstract p:first-of-type::before {
   content: "Abstract: ";
