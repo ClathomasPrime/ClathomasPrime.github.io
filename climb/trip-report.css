@@ -118,31 +118,18 @@ pre {
 
 .content li {
     line-height: 170%;
-    padding: 10px 0px;
+    padding: 0px 0px;
     margin: 10px 0px;
 }
 .content li > p {
   margin: 0;
-  padding: 10px 20px 10px 0;
+  padding: 10px 20px 0px 0;
 }
 
 .content p {
     line-height: 170%;
 }
-#main {
-    padding-top: 20px;
-	margin-left: 410px;
-  padding-bottom: 400px;
-  background: transparent url(images/2006.corner.jpg) no-repeat right bottom;
-}
-#main li {
-    font-size: 1.2em;
-}
-#main li ul li {
-    color: #666;
-    font-size: .8em;
-    list-style: none;
-}
+
 p {
     margin: 0px 20px 0px 0px;
     line-height: 20px;
@@ -327,46 +314,3 @@ body.expansion #banner a:hover {
     width: 100%;
 }
 
-/* printing */
-@page { size 8.5in 11in; margin: 0cm; }
-
-/* syntax highlighting */
-.highlight {
-  border: solid 1px #C9B;
-  background-color: #FFF5F9;
-  padding: 3px;
-  margin: 5px 40px 5px 22px;
-}
-.highlight > pre {
-  background-color: #FFFEF9;
-  padding: 5px 10px;
-  margin: 0px;
-  color: #936;
-  line-height: 170%;
-}
-.highlight .k { /* keyword */
-  font-weight: bold;
-}
-.highlight .c1 { /* comment */
-  color: #555;
-}
-.highlight .s1, .highlight .s2, .highlight .mi { /* string, number */
-  color: #396;
-}
-.highlight .s1, .highlight .s2 { /* string */
-  background-color: #E9F5F5;
-}
-.highlight .sr { /* regex */
-  background-color: #E9F1F5;
-  color: #435;
-}
-.highlight .nf { /* identifier */
-  color: #369;
-}
-.highlight .ss { /* symbol */
-  color: #000;
-}
-.highlight .nc { /* constant */
-  color: #630;
-  font-weight: bold;
-}
