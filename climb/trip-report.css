@@ -25,6 +25,13 @@ h1 {
     border-bottom: solid 1px #BBB;
     font-size: 1.4em;
     line-height: 130%;
+    width: 100%;
+}
+h2 .date {
+    padding-left: 20px;
+    font-size: 0.6em;
+    font-weight: normal;
+    color: grey;
 }
 .content h2 {
     margin: 32px 5px 8px 5px;
@@ -38,7 +45,7 @@ h1 {
     border-bottom: solid 1px #CCC;
 }
 strong, em {
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 a img {
     border: 0;
@@ -108,49 +115,17 @@ pre {
 	left: 147px;
     z-index: 2;
 }
-/* set the image to use and establish the lower-right position */
-.foxbox, .foxbox_body, .foxbox_head 
-{ 
-    background: transparent url(images/2006.foxbox.jpg) no-repeat bottom right;
-}
-/* set the top-right image */
-.foxbox_head
-{ 
-    background-position: top left; 
-    margin-right: -15px; /* pull the right image over on top of border */ 
-    padding-right: 40px; /* right-image-gap + right-inside padding */ 
-}
-/* set the top-left image */ 
-.foxbox_head h3 
-{ 
-    margin: 0; /* reset main site styles*/ 
-    border: 0; /* ditto */ 
-    padding: 10px 0 10px 30px; /* padding-left = image gap + interior padding ... no padding-right */ 
-    height: auto !important; height: 1%; /* IE Holly Hack */ 
-} 
-/* set the lower-left corner image */ 
-.foxbox_body 
-{ 
-    background-position: bottom left; 
-    margin-right: 25px; /* interior-padding right */ 
-    padding: 5px 0 15px 40px; /* mirror .foxbox_head right/left */ 
-} 
-.foxbox_body p {
-    font-size: 9pt;
-    margin: 8px;
-	padding: 0 10px 0 40px;
-	line-height: 120%;
-}
 
 .content li {
     line-height: 170%;
     padding: 10px 0px;
-    margin: 10px 10px;
+    margin: 10px 0px;
 }
-.content li p:not(:first-child) {
+.content li > p {
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 20px 10px 0;
 }
+
 .content p {
     line-height: 170%;
 }
@@ -169,7 +144,7 @@ pre {
     list-style: none;
 }
 p {
-    margin: 0px 40px 0px 0px;
+    margin: 0px 20px 0px 0px;
     line-height: 20px;
     padding: 10px;
 }
@@ -203,6 +178,10 @@ ul {
 li {
   margin-right: 0;
 }
+ul.route-list {
+  margin-left: -10px;
+  list-style-type: square;
+}
 
 .sidebar ul {
     margin-top: 0px;
@@ -227,7 +206,7 @@ li {
     font-size: 1.0em;
     border-bottom: solid 4px #CCC;
     margin: 0;
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
 }
 .sidebar p {
     font-size: .9em;
@@ -266,6 +245,17 @@ img {
 }
 .gallery {
     max-width: 100%;
+}
+.gallery.squeeze-three img {
+  max-width: 250px;
+}
+@media (min-width: 500px) {
+    .squeeze-sidebar {
+      max-width: 500px;
+    }
+    .sidebar {
+        float: right;
+    }
 }
 
 
