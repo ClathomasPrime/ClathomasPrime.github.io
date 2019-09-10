@@ -12,15 +12,20 @@ body,html {
   height: auto;
 }
 
-.profile-image {
-  text-align: right;
+
+@media (min-width: 600px) {
+  .profile-image {
+    text-align: right;
+  }
+  .profile-image img {
+    margin: -250px 0px -50px auto;
+  }
 }
 
 .profile-image img {
-  margin: -250px 10px -50px auto;
   max-height: 300px;
-  padding:1px;
-  border:1px solid #021a40;
+  padding:4px;
+  border:1px solid #074e9f;
   background-color: white;
 }
 
