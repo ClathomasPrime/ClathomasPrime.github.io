@@ -1,357 +1,387 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Clay Thomas</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- https://stackoverflow.com/questions/27855154/website-elements-and-font-are-too-small-in-mobiles -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+<head>
+  <title>Clay Thomas</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- https://stackoverflow.com/questions/27855154/website-elements-and-font-are-too-small-in-mobiles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="contents">
 
-    <div class="contents">
-      <div class="header-image">
-        <img src="TheNautalis.jpg" alt="The Nautalis in Vedauwoo, Wyoming"
-          title="The Nautalis in Vedauwoo, Wyoming" />
-      </div>
+  <div class="header-image">
+    <img src="TheNautalis.jpg" alt="The Nautalis in Vedauwoo, Wyoming"
+      title="The Nautalis in Vedauwoo, Wyoming" />
+  </div>
 
-      <div class="profile-image">
-        <img src="Profile.jpg" alt="Me, hanging around in Rocktown, GA" />
-      </div>
+  <div class="profile-image">
+    <img src="Profile.jpg" alt="Me, hanging around in Rocktown, GA" />
+  </div>
 
-      <div class="page-title">
-        <h1>
-          <span>
-            Clay Thomas
-          </span>
-        </h1>
-      </div>
-      <div class="preface">
-        <p>
-          Hello! I'm a PhD student in the Computer Science Theory group at Princeton,
-          where I'm very fortunate to be advised by Matt Weinberg.
-          I study algorithmic game theory and mechanism design.
-          I'm most inspired to study the true effect of strategic behavior on computational
-          problems (possibly under different solution concepts or in average-case market behavior)
-          and well-motivated combinatorics and discrete math questions that arise in
-          algorithmic game theory or economics.
-          Lately, I've been studying these themes in the topics of combinatorial auctions,
-          matching markets, and social choice theory.
-        </p>
-        <!-- 
-        <ul>
-          <li>The true effect that strategic behavior has on computational problems,
-            and the extent to which different solution concepts are really needed to
-            encourage good outcomes
-          </li>
-          <li>The average-case behavior of markets and its effect on incentives,
-            welfare, and fairness
-          </li>
-          <li>Well-motivated combinatorics and discrete math questions that arise in
-            algorithmic game theory or economics
-          </li>
-        </ul>
-        <p> In particular, I've been investigating the above themes in the settings of
-        </p>
-        <ul>
-          <li> Combinatorial auctions, where I've been studying different query
-            models and appropriate concepts of strategyproofness
-          </li>
-          <li> Matching markets, where I've been looking into worst-case upper bounds
-            on the number of stable matches an instance can have, and various
-            questions on average-case behavior and incentive properties
-          </li>
-          <li> Social choice theory, where I've been studying Condorcet domains
-            (informally, sets of preferences which allow majority voting to work)
-            and equitable social choice rules (which satisfy a good notion of
-            "treating voters equally")
-          </li>
-        </ul>
-        --> 
-        <p>
-          I completed my undergrad in Mathematics and Computer Science at
-          Purdue University, where I was fortunate to work with
-          Elena Grigorescu on error correcting codes.
-          My other interests include functional programming, teaching, 
-          rock climbing, and slacklining.
-          Some fun links:
-          <a href="https://oeis.org/history?user=Clayton%20Thomas">my OEIS account</a>,
-          and <a href="climb/">my climbing homepage</a>.
-        </p>
-        <!-- <a href="cv.pdf">Here's my CV</a> -->
-      </div>
+  <div class="page-title">
+    <h1>
+      <span>
+        Clay Thomas
+      </span>
+    </h1>
+  </div>
 
-      <!-- <h2>
-        <span>
-          News
-        </span>
-      </h2> -->
+  <div class="preface">
+    <p>
+      Hello! I'm a PhD student in the Computer Science Theory group at Princeton,
+      where I'm very fortunate to be advised by Matt Weinberg.
+      I study algorithmic game theory and mechanism design.
+      I'm most inspired to study the true effect of strategic behavior on computational
+      problems (possibly under different solution concepts or in average-case market behavior)
+      and well-motivated combinatorics and discrete math questions that arise in
+      algorithmic game theory or economics.
+      Lately, I've been studying these themes in the topics of combinatorial auctions,
+      matching markets, and social choice theory.
+    </p>
+    <!-- 
+    <ul>
+      <li>The true effect that strategic behavior has on computational problems,
+        and the extent to which different solution concepts are really needed to
+        encourage good outcomes
+      </li>
+      <li>The average-case behavior of markets and its effect on incentives,
+        welfare, and fairness
+      </li>
+      <li>Well-motivated combinatorics and discrete math questions that arise in
+        algorithmic game theory or economics
+      </li>
+    </ul>
+    <p> In particular, I've been investigating the above themes in the settings of
+    </p>
+    <ul>
+      <li> Combinatorial auctions, where I've been studying different query
+        models and appropriate concepts of strategyproofness
+      </li>
+      <li> Matching markets, where I've been looking into worst-case upper bounds
+        on the number of stable matches an instance can have, and various
+        questions on average-case behavior and incentive properties
+      </li>
+      <li> Social choice theory, where I've been studying Condorcet domains
+        (informally, sets of preferences which allow majority voting to work)
+        and equitable social choice rules (which satisfy a good notion of
+        "treating voters equally")
+      </li>
+    </ul>
+    --> 
+    <p>
+      I completed my undergrad in Mathematics and Computer Science at
+      Purdue University, where I was fortunate to work with
+      Elena Grigorescu on error correcting codes.
+      My other interests include functional programming, teaching, 
+      rock climbing, and slacklining.
+      Some fun links:
+      <a href="https://oeis.org/history?user=Clayton%20Thomas">my OEIS account</a>,
+      and <a href="climb/">my climbing homepage</a>.
+    </p>
+    <!-- <a href="cv.pdf">Here's my CV</a> -->
+  </div>
 
-      <h2>
-        <span>
-          Publications
-        </span>
-      </h2>
+  <!-- <h2>
+    <span>
+      News
+    </span>
+  </h2> -->
 
-      <cite id="mrCodesBounded"> 
-        V. Gandikota, E. Grigorescu, C. Thomas, and M. Zhu.
-        Maximally recoverable codes: The bounded case.
-        In <em>Allerton Conference on Communication, Control, and Computing</em>, 2017.
-        <a href="./papers/boundedMRC.pdf">[paper]</a>
-        <a href="./talks/boundedMRCSlides.pdf">[slides]</a>
-      </cite>
-      <div class="abstract">
-        <p>
-          Modern distributed storage systems employ Maximally Recoverable codes
-          that aim to balance failure recovery capabilities with
-          encoding/decoding efficiency tradeoffs. Recent works of Gopalan et al
-          (SODA 2017) and Kane et al (FOCS 2017) show that the alphabet size of
-          grid-like topologies of practical interest must be large, a feature that
-          hampers decoding efficiency.
-        </p>
-        <p>
-          To bypass such shortcomings, in this work we initiate the study of a
-          weaker version of recoverability, where instead of being able to correct
-          all correctable erasure patterns (as is the case for maximal
-          recoverability), we only require to correct all  erasure patterns of
-          <em>bounded</em> size. The study of this notion reduces to a variant of a
-          combinatorial problem studied in the literature, which is  interesting
-          in its own right.
-        </p>
-        <p>
-          We study the alphabet size of  codes withstanding  all erasure patterns
-          of small (constant) size. We believe the questions we propose are
-          relevant  to both real storage systems and combinatorial analysis, and
-          merit further study.
-        </p>
-      </div>
+  <h2>
+    <span>
+      Publications
+    </span>
+  </h2>
 
-      <h2>
-        <span>
-          Projects
-        </span>
-      </h2>
+  <cite id="mrCodesBounded"> 
+    V. Gandikota, E. Grigorescu, C. Thomas, and M. Zhu.
+    Maximally recoverable codes: The bounded case.
+    In <em>Allerton Conference on Communication, Control, and Computing</em>, 2017.
+    <a href="./papers/boundedMRC.pdf">[paper]</a>
+    <a href="./talks/boundedMRCSlides.pdf">[slides]</a>
+  </cite>
+  <div class="abstract">
+    <p>
+      Modern distributed storage systems employ Maximally Recoverable codes
+      that aim to balance failure recovery capabilities with
+      encoding/decoding efficiency tradeoffs. Recent works of Gopalan et al
+      (SODA 2017) and Kane et al (FOCS 2017) show that the alphabet size of
+      grid-like topologies of practical interest must be large, a feature that
+      hampers decoding efficiency.
+    </p>
+    <p>
+      To bypass such shortcomings, in this work we initiate the study of a
+      weaker version of recoverability, where instead of being able to correct
+      all correctable erasure patterns (as is the case for maximal
+      recoverability), we only require to correct all  erasure patterns of
+      <em>bounded</em> size. The study of this notion reduces to a variant of a
+      combinatorial problem studied in the literature, which is  interesting
+      in its own right.
+    </p>
+    <p>
+      We study the alphabet size of  codes withstanding  all erasure patterns
+      of small (constant) size. We believe the questions we propose are
+      relevant  to both real storage systems and combinatorial analysis, and
+      merit further study.
+    </p>
+  </div>
 
-      <cite id="johnsonExpansion">
-        <strong> Paper Survey: Expansion in the Johnson Graph
-         </strong>
-        With Uma Girish.
-        <a href="./papers/JohnsonExpansion.pdf">[report]</a>
-      </cite>
+  <h2>
+    <span>
+      Projects
+    </span>
+  </h2>
 
-      <div class="abstract">
-        <p>
-          The (generalized) Johnson graph is given by slices of the hypercube,
-          and is important for under-standing probabilistically checkable proof
-          systems and hardness of approximation. Characterizing the expansion of
-          the Johnson Graph recently served as an important conceptual stepping
-          stone to proving the 2-to-1 games conjecture. Here, we summarize the
-          proof technique used, with a focus on simplicity and clarity of
-          presentation.
-        </p>
-      </div>
+  <cite id="johnsonExpansion">
+    <strong> Paper Survey: Expansion in the Johnson Graph
+     </strong>
+    With Uma Girish.
+    <a href="./papers/JohnsonExpansion.pdf">[report]</a>
+  </cite>
 
-      <cite id="taxactionComplexitySurvey">
-        <strong> Paper Survey: New Lower Bound Techniques for the Query Complexity of
-        Truthful Mechanisms. </strong>
-        With Uma Girish.
-        For Matt Weinberg's "Open Problems in AGT" course.
-        <a href="./papers/EfficientQueryMechanisms.pdf">[report]</a>
-      </cite>
+  <div class="abstract">
+    <p>
+      The (generalized) Johnson graph is given by slices of the hypercube,
+      and is important for under-standing probabilistically checkable proof
+      systems and hardness of approximation. Characterizing the expansion of
+      the Johnson Graph recently served as an important conceptual stepping
+      stone to proving the 2-to-1 games conjecture. Here, we summarize the
+      proof technique used, with a focus on simplicity and clarity of
+      presentation.
+    </p>
+  </div>
 
-      <div class="abstract">
-        <p>
-          A survey of "Computational Efficiency Requires Simple
-          Taxation" by Shahar Dobzinski.
-        </p>
-      </div>
+  <cite id="taxactionComplexitySurvey">
+    <strong> Paper Survey: New Lower Bound Techniques for the Query Complexity of
+    Truthful Mechanisms. </strong>
+    With Uma Girish.
+    For Matt Weinberg's "Open Problems in AGT" course.
+    <a href="./papers/EfficientQueryMechanisms.pdf">[report]</a>
+  </cite>
 
-      <cite id="nextHopVerification">
-        <strong> You Can't Handle the Lie: Next-Hop Verification in BGP.</strong>
-        With Gavriel Hirsch.
-        For Jennifer Rexford's "Advanced Networking" course.
-        <a href="./papers/NextHopBGP.pdf">[report]</a>
-      </cite>
+  <div class="abstract">
+    <p>
+      A survey of "Computational Efficiency Requires Simple
+      Taxation" by Shahar Dobzinski.
+    </p>
+  </div>
 
-      <div class="abstract">
-        <p>
-          BGP, the control-plane interdomain routing protocol used in today's
-          internet, is notoriously difficult to secure and verify.
-          This paper presents a new protocol called Next-Hop Verification,
-          which reduces the set of contexts in which autonomous systems are 
-          incentivized to lie while participating in BGP.
-          The protocol works by sharing information
-          about BGP path announcements between different ASs,
-          using the existing structure of the network, and checking 
-          those path announcements against the true flow of
-          traffic in the data plane. We discuss the advantages and
-          disadvantages of this new approach, and compare its effectiveness
-          to that of previously considered verification
-          techniques, focusing on cases where next-hop verification
-          provably eliminates the incentives to lie in BGP.
-          While our protocol is likely not practical, we believe it makes
-          progress towards a more secure version of BGP in which ASs are able to
-          "check each other" to enforce honesty.
-        </p>
-      </div>
+  <cite id="nextHopVerification">
+    <strong> You Can't Handle the Lie: Next-Hop Verification in BGP.</strong>
+    With Gavriel Hirsch.
+    For Jennifer Rexford's "Advanced Networking" course.
+    <a href="./papers/NextHopBGP.pdf">[report]</a>
+  </cite>
 
-      <cite id="structuralInvariants">
-        <strong>Verifying Structural Invariants of Programs.</strong>
-        With Jacob Bond.
-        For Roopsha Samanta's "Reasoning about Programs" course at Purdue.
-        <a href="./papers/structuralPerturbations.pdf">[report]</a>
-        <a href="./talks/structuralPerturbationsSlides.pdf">[slides]</a>
-      </cite>
+  <div class="abstract">
+    <p>
+      BGP, the control-plane interdomain routing protocol used in today's
+      internet, is notoriously difficult to secure and verify.
+      This paper presents a new protocol called Next-Hop Verification,
+      which reduces the set of contexts in which autonomous systems are 
+      incentivized to lie while participating in BGP.
+      The protocol works by sharing information
+      about BGP path announcements between different ASs,
+      using the existing structure of the network, and checking 
+      those path announcements against the true flow of
+      traffic in the data plane. We discuss the advantages and
+      disadvantages of this new approach, and compare its effectiveness
+      to that of previously considered verification
+      techniques, focusing on cases where next-hop verification
+      provably eliminates the incentives to lie in BGP.
+      While our protocol is likely not practical, we believe it makes
+      progress towards a more secure version of BGP in which ASs are able to
+      "check each other" to enforce honesty.
+    </p>
+  </div>
 
-      <div class="abstract">
-        <p>
-          A core problem in program verification is checking the invariance of
-          programs under certain transformations. For example, a maximum
-          function should be invariant under the order of a list,
-          and a find function on binary search trees should return the same
-          result for equivalent trees (i.e. those which represent the same
-          ordered list).
-          For both of these data types, we've found simple operations that
-          "generate" all equivalent data types,
-          in the sense that applying those permutations in some order to any data
-          structure can result in all structures equivalent to the input.
-          Thus, checking the invariance of programs for these data types can be
-          reduced to checking their invariance under the more simple
-          "generating" operations. This idea could potentially be useful for
-          reasoning about algebraic data types with a notion of equivalence.
-        </p>
-        <p>
-          We have a more general, sound procedure that can verify the
-          invariance of an arbitrary data type under some underlying
-          representation (for example, a function on binary search trees should be
-          invariant under the function "list" that returns the ordered list
-          corresponding to the tree).
-          However, our procedure includes an inductive synthesizer and an
-          equivalence-of-programs verifier in its inner loop,
-          so it is not likely to be practical.
-        </p>
-      </div>
+  <cite id="structuralInvariants">
+    <strong>Verifying Structural Invariants of Programs.</strong>
+    With Jacob Bond.
+    For Roopsha Samanta's "Reasoning about Programs" course at Purdue.
+    <a href="./papers/structuralPerturbations.pdf">[report]</a>
+    <a href="./talks/structuralPerturbationsSlides.pdf">[slides]</a>
+  </cite>
 
-      <!-- 
-      <h2>
-        <span>
-          Small Projects
-        </span>
-      </h2>
+  <div class="abstract">
+    <p>
+      A core problem in program verification is checking the invariance of
+      programs under certain transformations. For example, a maximum
+      function should be invariant under the order of a list,
+      and a find function on binary search trees should return the same
+      result for equivalent trees (i.e. those which represent the same
+      ordered list).
+      For both of these data types, we've found simple operations that
+      "generate" all equivalent data types,
+      in the sense that applying those permutations in some order to any data
+      structure can result in all structures equivalent to the input.
+      Thus, checking the invariance of programs for these data types can be
+      reduced to checking their invariance under the more simple
+      "generating" operations. This idea could potentially be useful for
+      reasoning about algebraic data types with a notion of equivalence.
+    </p>
+    <p>
+      We have a more general, sound procedure that can verify the
+      invariance of an arbitrary data type under some underlying
+      representation (for example, a function on binary search trees should be
+      invariant under the function "list" that returns the ordered list
+      corresponding to the tree).
+      However, our procedure includes an inductive synthesizer and an
+      equivalence-of-programs verifier in its inner loop,
+      so it is not likely to be practical.
+    </p>
+  </div>
 
-      These are all smaller, simpler, code-based projects which I wrote
-      independently. Some of them contain kernels of ideas which I would like to
-      return to some day, so please contact me if these sound interesting and
-      you would like to work on them!
+  <h2><span>Teaching</span></h2>
 
-      <h3> Fair Read-Write Locks </h3>
-      <p>
-        <span class="date">
-          <a href="https://github.com/ClathomasPrime/FairReadWrite">
-            March 2016.</a>
-        </span>
-        A kernel-level read-write lock implementation in the Xinu operating system,
-        giving readers and writers access in exactly the order they request it.
-      </p>
-      <p>
-        This small project inspired a question I really want to come
-        back to one day:
-        Are all synchronization protocols implementable with
-        common sets of synchronization primitives?
-        For example, is it possible to implement fair read-write locks
-        using only semaphores?
-        No implementation I have seen is actually fair in the
-        sense discussed above.
-        See the repo for more information.
-      </p>
+  <p>
+    My teaching philosophy is best summed up by the following quote,
+    from the first edition preface to Spivak's <em>Calculus</em>
+    (some adjustments are my own).
+  </p>
 
-      <h3> Free Decision Trees &mdash; Library and Blog Post </h3>
-      <p>
-        <span class="date">
-          <a href="hask/freeDecision.html">
-            January 2016.</a>
-        </span>
-        A rudimentary library to train and apply decision trees
-        represented in an elegant way.
-        This project was inspired by the observation
-        that the Haskell data type
-        <code>Free ((->) r) Bool</code>
-        could be used to represent decision trees.
-        The result is a blog-post style explanation of the concept and implementation,
-        which I think is a good way to understand free monads.
-      </p>
+  <blockquote>
+    Precision and rigor are neither deterrents to intuition,
+    nor the ends in themselves,
+    but the natural medium in which to formulate and think about
+    <strike>mathematical</strike> <em>computer science</em> questions.
+  </blockquote>
 
-      <h2> <span> Other Things </span> </h2>
+  <p>
+    I am particularly interested in writing exercise that both
+    test and instruct students, and in crafting course policies and material 
+    which is simultaneously accessible to all learners and challenging for
+    those looking for a deeper understanding of the material.
+  </p>
 
-      <h3> Teaching </h3>
-      <p>
-        I enjoy lecturing and explaining foundational concepts.
-        Furthermore, I like writing challenging and interesting practice
-        questions for students (including thinking of exercises for myself!).
-      </p>
-      <p>
-        When I TAed for Purdue's "Foundations of computer science" course,
-        I wrote some lecture notes for a few of my "practice, study, observation"
-        sessions and I wrote review materials for the midterm and final.
-        You can find those materials
-        <a href="cs182/index.html">here</a>.
-      </p>
+  <ul>
+    <li> Fall 2019: Preceptor for 
+      <a href="https://www.cs.princeton.edu/courses/archive/fall19/cos340/index.html">
+        COS&nbsp;340 </a> (Reasoning about Computation) at Princeton.
+    </li>
+    <li> Spring and Fall 2015: Recitation Teaching Assistant for CS&nbsp;182
+        (Foundations of Computer Science) at Purdue.
+        I kept a small <a href="./teaching/cs182/index.html">homepage</a> with supplemental exercises I wrote.
+    </li>
+  </ul>
 
-      <h3> Haskell </h3>
-      <p>
-        My manager at Facebook told me that there's an old saying among
-        Haskellers: "The best way to learn monads is to write a monad tutorial,
-        then throw it away" because nobody else will ever find it useful.
-        Personally, I think monad tutorials are a myth.
-        Writing a monad tutorial is like writing a "data structures" tutorial
-        or a "programming patterns" tutorial: way too broad.
-        Anyway, <a href="hask/listMonad.pdf">here's</a> my monad tutorial.
-      </p>
-      <p>
-        I want make some simplified versions of Haskell libraries that are easier
-        to understand so people can learn the concepts of the libraries.
-        <a href="hask/lensExplanation.hs">Here's</a>
-        the start of that project for the Lens library.
-      </p>
+  <!--
+  <h2>
+    <span>
+      Small Projects
+    </span>
+  </h2>
+  These are all smaller, simpler, code-based projects which I wrote
+  independently. Some of them contain kernels of ideas which I would like to
+  return to some day, so please contact me if these sound interesting and
+  you would like to work on them!
+  <h3> Fair Read-Write Locks </h3>
+  <p>
+    <span class="date">
+      <a href="https://github.com/ClathomasPrime/FairReadWrite">
+        March 2016.</a>
+    </span>
+    A kernel-level read-write lock implementation in the Xinu operating system,
+    giving readers and writers access in exactly the order they request it.
+  </p>
+  <p>
+    This small project inspired a question I really want to come
+    back to one day:
+    Are all synchronization protocols implementable with
+    common sets of synchronization primitives?
+    For example, is it possible to implement fair read-write locks
+    using only semaphores?
+    No implementation I have seen is actually fair in the
+    sense discussed above.
+    See the repo for more information.
+  </p>
+  <h3> Free Decision Trees &mdash; Library and Blog Post </h3>
+  <p>
+    <span class="date">
+      <a href="hask/freeDecision.html">
+        January 2016.</a>
+    </span>
+    A rudimentary library to train and apply decision trees
+    represented in an elegant way.
+    This project was inspired by the observation
+    that the Haskell data type
+    <code>Free ((->) r) Bool</code>
+    could be used to represent decision trees.
+    The result is a blog-post style explanation of the concept and implementation,
+    which I think is a good way to understand free monads.
+  </p>
+  -->
+
+  <!-- 
+  <h2> <span> Other Things </span> </h2>
+  <h3> Teaching </h3>
+  <p>
+    I enjoy lecturing and explaining foundational concepts.
+    Furthermore, I like writing challenging and interesting practice
+    questions for students (including thinking of exercises for myself!).
+  </p>
+  <p>
+    When I TAed for Purdue's "Foundations of computer science" course,
+    I wrote some lecture notes for a few of my "practice, study, observation"
+    sessions and I wrote review materials for the midterm and final.
+    You can find those materials
+    <a href="cs182/index.html">here</a>.
+  </p>
+  <h3> Haskell </h3>
+  <p>
+    My manager at Facebook told me that there's an old saying among
+    Haskellers: "The best way to learn monads is to write a monad tutorial,
+    then throw it away" because nobody else will ever find it useful.
+    Personally, I think monad tutorials are a myth.
+    Writing a monad tutorial is like writing a "data structures" tutorial
+    or a "programming patterns" tutorial: way too broad.
+    Anyway, <a href="hask/listMonad.pdf">here's</a> my monad tutorial.
+  </p>
+  <p>
+    I want make some simplified versions of Haskell libraries that are easier
+    to understand so people can learn the concepts of the libraries.
+    <a href="hask/lensExplanation.hs">Here's</a>
+    the start of that project for the Lens library.
+  </p>
+  <h3> Stuff from the distant past </h3>
+  <p>
+    <a href="https://github.com/elliottwilliams/wheremeet">Here's</a>
+    a hackathon project I worked on to help you meet your friends at
+    different Purdue dining courts.
+  </p>
+  <p>
+    <a href="misc/probs/fractionFunction.pdf">Here's</a>
+    a Purdue problem of the week from back in the day.
+    <a href="misc/probs/fractionFunctionPlot.pdf">Here</a>
+    is a partial graph of the function constructed,
+    where I enumerated rationals in some simple order
+    and plotted the value of the function there.
+    Seems like the graph is dense in the plane,
+    but I don't think I even knew what "dense"
+    meant at the time.
+  </p>
+  <p>
+    <a href="misc/torusGraph.png">Here's</a>
+    an image I made to explain how to
+    derive an equation of the form <code>z = f(x,y)</code>
+    for the graph of a Torus.
+  </p>
+  <p>
+    <a href="misc/passwordProblem.pdf">Here's</a>
+    a little writeup of a counting problem that
+    I found tough and interesting at the time.
+  </p>
+  <p>
+    <a href="misc/perfectRoll.pdf">Here's</a>
+    a writeup I did when I took physics about the fact that objects always
+    roll down slopes with less acceleration than if they were slipping
+    down the slope without rolling.
+    I also construct shapes with acceleration arbitrarily close to the
+    "slipping acceleration".
+  </p>
+  -->
 
 
-      <h3> Stuff from the distant past </h3>
-      <p>
-        <a href="https://github.com/elliottwilliams/wheremeet">Here's</a>
-        a hackathon project I worked on to help you meet your friends at
-        different Purdue dining courts.
-      </p>
-      <p>
-        <a href="misc/probs/fractionFunction.pdf">Here's</a>
-        a Purdue problem of the week from back in the day.
-        <a href="misc/probs/fractionFunctionPlot.pdf">Here</a>
-        is a partial graph of the function constructed,
-        where I enumerated rationals in some simple order
-        and plotted the value of the function there.
-        Seems like the graph is dense in the plane,
-        but I don't think I even knew what "dense"
-        meant at the time.
-      </p>
-      <p>
-        <a href="misc/torusGraph.png">Here's</a>
-        an image I made to explain how to
-        derive an equation of the form <code>z = f(x,y)</code>
-        for the graph of a Torus.
-      </p>
-      <p>
-        <a href="misc/passwordProblem.pdf">Here's</a>
-        a little writeup of a counting problem that
-        I found tough and interesting at the time.
-      </p>
-      <p>
-        <a href="misc/perfectRoll.pdf">Here's</a>
-        a writeup I did when I took physics about the fact that objects always
-        roll down slopes with less acceleration than if they were slipping
-        down the slope without rolling.
-        I also construct shapes with acceleration arbitrarily close to the
-        "slipping acceleration".
-      </p>
-      -->
-
-    </div>
-  </body>
+</div>
+</body>
 </html>
