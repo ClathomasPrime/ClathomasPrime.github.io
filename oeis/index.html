@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clay Thomas</title>
+  <link rel="stylesheet" href="../style.css">
+  <!-- https://stackoverflow.com/questions/27855154/website-elements-and-font-are-too-small-in-mobiles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+<div class="contents">
+
+  <div class="header-image">
+    <img src="../TheNautalis.jpg" alt="The Nautalis in Vedauwoo, Wyoming"
+      title="The Nautalis in Vedauwoo, Wyoming" />
+  </div>
+
+  <p>
+    I'm a big fan of the Online Encylopedia of Integer Sequences,
+    both as a hobby and as a research tool.
+    <a href="https://oeis.org/history?user=Clayton%20Thomas">
+      My user profile</a>.
+  </p>
+
+  <h2>
+    <span>
+      Sequences Authored
+    </span>
+  </h2>
+
+  <cite> 
+    <a href="https://oeis.org/A309933">A309933</a>. Table read by rows: T(n,k)
+    is the number of stable marriage instances with n men and n+1 women in which
+    some "rejecting" woman receives exactly k proposals.
+  </cite>
+  <div class="description">
+    Analyzing this one has interesting applications to the theory of random
+    stable matching markets, as described in our <a
+      href="../papers/ShortSideAdvantage.pdf">paper</a>.
+  </div>
+
+  <h2>
+    <span>
+       Contributions
+    </span>
+  </h2>
+
+  <cite> 
+    <a href="https://oeis.org/A005154">A005154</a>. Number of stable matchings.
+  </cite>
+  <div class="description">
+    This sequence is the best known lower bound on the maximum number of
+    stable matchings on n men and n women.
+    An analysis of the growth of this sequence was known, but never published.
+    With some help from Peter Shor this analysis is finally
+    available <a href="https://oeis.org/A005154/a005154.pdf">here</a>.
+  </div>
+
+  <cite>
+    <a href="https://oeis.org/A116078">A116078</a>. Number of antichains in a
+      cylinder poset.
+  </cite>
+  <div class="description">
+    One way to prove upper bounds on the worst-case maximum number of stable 
+    marriages is to prove upper bounds on the number of antichains in
+    "tangled \(n \times n\) grid" posets, as observed by
+    <a href="https://users.renyi.hu/~emlektab/emlektabla8problems.pdf#page=20">Dömötör
+    Pálvölgyi</a>.
+    There is a simple tangled grid poset whose number of antichains is exactly
+    A116078, as we show <a href="https://oeis.org/A116078/a116078.pdf">here</a>.
+    This by itself disproves Pálvölgyi's conjecture that tangled \(n \times n\) grids have
+    at most \(4^n\) antichains, and a modification of the analysis I gave
+    for A005154 <a href="https://oeis.org/A005154/a005154.pdf">here</a>
+    actually proves that tangled grids can have
+    up to \( 4.17^n \) antichains.
+  </div>
+
+  <cite> 
+    <a href="https://oeis.org/A144686">A144685</a> and <a href="https://oeis.org/A144686">A144686</a>.
+    Two sequences regarding Condorcet Domains from social choice theory.
+  </cite>
+  <div class="description">
+    A lot of interesting combinatorial questions arise from investigating sets
+    of linear orders over which majority voting never produces cycles.
+  </div>
+
+  <cite> 
+    <a href="https://oeis.org/A144686">A144685</a> and <a href="https://oeis.org/A144686">A144686</a>.
+    Two sequences regarding Condorcet Domains from social choice theory.
+  </cite>
+  <div class="description">
+    A lot of interesting combinatorial questions arise from investigating sets
+    of linear orders over which majority voting never produces cycles.
+  </div>
+
+
+</div>
+</body>
+</html>
