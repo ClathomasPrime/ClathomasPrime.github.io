@@ -78,6 +78,7 @@ cite {
   display: block;
   font-style: normal;
   margin-left: 2.5em;
+  margin-bottom: 1em;
   position: relative;
   text-align: left; 
 }
@@ -91,6 +92,7 @@ cite a {
   text-decoration: none; 
 }
 .abstract {
+  display: none;
   margin-left: 4.5em;
   margin-right: 1.5em;
   margin-bottom: 1.5em;

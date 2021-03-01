@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Clay Thomas</title>
+  <title>Clayton Thomas</title>
   <link rel="stylesheet" href="style.css">
   <!-- https://stackoverflow.com/questions/27855154/website-elements-and-font-are-too-small-in-mobiles -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +26,7 @@
   <div class="page-title">
     <h1>
       <span>
-        Clay Thomas
+        Clayton Thomas
       </span>
     </h1>
   </div>
@@ -35,14 +35,37 @@
     <p>
       Hello! I'm a PhD student in the Computer Science Theory group at Princeton,
       where I'm very fortunate to be advised by Matt Weinberg.
-      I study algorithmic game theory and mechanism design.
+      I try to understand and design algorithms in the presence of 
+      <i>strategic behavior</i>.
+      Specifically, I study algorithmic game theory,
+      mechanism design, and microeconomic theory.
+      Some themes I'm interested in include:
+      finding salient contrasts between what can be computed and what can be
+      incentivized;
+      economic problems where new theory is needed to drive
+      real-world mechanisms;
+      and in questions of how these mechanisms should <i>interact</i> with 
+      strategic agents.
+      <!-- 
+      studying aggregate properties of large 
+
+      Thematically, I am most interested in situations where there is a sharp
+      contrast between what can be computed and what can be incentivized;
+      in strategic manipulations beyond what is modeled with
+      <q>standard definitions</q>;
+      --> 
+      I've worked on these themes in the context of stable matchings,
+      obviously strategyproof mechanisms, and combinatorial auctions.
+    </p>
+      <!-- 
       I'm most inspired to study the true effect of strategic behavior on computational
       problems (possibly under different solution concepts or in average-case market behavior)
       and well-motivated combinatorics and discrete math questions that arise in
       algorithmic game theory or economics.
       Lately, I've been studying these themes in the topics of combinatorial auctions,
       matching markets, and social choice theory.
-    </p>
+      -->
+
     <!-- 
     <ul>
       <li>The true effect that strategic behavior has on computational problems,
@@ -79,10 +102,7 @@
       Elena Grigorescu on error correcting codes.
       My other interests include functional programming, teaching, 
       rock climbing, and slacklining.
-      Some fun links:
-      <a href="./oeis/index.html">my OEIS
-        contributions</a>,
-      and <a href="climb/">my climbing homepage</a>.
+      <a href="climb/">My climbing homepage</a>.
     </p>
     <!-- <a href="cv.pdf">Here's my CV</a> -->
   </div>
@@ -94,16 +114,48 @@
   </h2> -->
   <h2>
     <span>
-      Drafts
+      Publications and Preprints
     </span>
   </h2>
+
+  <cite> 
+    Aviad Rubinstein, Raghuvansh R. Saxena, Clayton Thomas, S. Mathew
+    Weinberg, Junyao Zhao.
+    <strong> Exponential Communication Separations between Notions of
+      Selfishness </strong>
+    STOC 2021. <a href="https://arxiv.org/abs/2012.14898">[arXiv]</a>
+  </cite>
+  <div class="abstract">
+  </div>
+
+
+  <cite> 
+    Clayton Thomas.
+    <strong> Classification of Priorities Such That Deferred Acceptance 
+      is Obviously Strategyproof.
+    </strong>
+    In submission. <a href="https://arxiv.org/abs/2011.12367">[arXiv]</a>
+  </cite>
+  <div class="abstract">
+  </div>
+
+
+  <cite> 
+    Itai Ashlagi, Mark Braverman, Amin Saberi, Clayton Thomas, Geng Zhao.
+    <strong>Tiered Random Matching Markets: Rank is Proportional to
+      Popularity. 
+    </strong>
+    ITCS 2021. <a href="https://arxiv.org/abs/2009.05124">[arXiv]</a>
+  </cite>
+  <div class="abstract">
+  </div>
 
   <cite> 
     Linda Cai, Clayton Thomas, and S. Matthew Weinberg.
     <strong> Implementation in Advised Strategies:
     Welfare Guarantees from Posted-Price Mechanisms when Demand Queries are
     NP-hard.</strong>
-    In submission. <a href="https://arxiv.org/abs/1910.04342">[arXiv]</a>
+    ITCS 2020. <a href="https://arxiv.org/abs/1910.04342">[arXiv]</a>
   </cite>
   <div class="abstract">
     <p>
@@ -136,24 +188,11 @@
 
   <cite> 
     Linda Cai and Clayton Thomas.
-    <strong> Representing All Stable Matchings by Walking a Maximal Chain. </strong>
-    <a href="./papers/StableStructureMaxChain.pdf">[paper]</a>
-  </cite>
-  <div class="abstract">
-    <p>
-    The seminal book of Gusfield and Irving [GI89] provides a compact and algorithmically useful
-    way to represent the collection of stable matches corresponding to a given set of preferences. In
-    this paper, we reinterpret the main results of [GI89], giving a new proof of the characterization
-    which is able to bypass a lot of the “theory building” of the original works. We also provide
-    a streamlined and efficient way to compute this representation. Our proofs and algorithms
-    emphasize the connection to well-known properties of the deferred acceptance algorithm.
-    </p>
-  </div>
-
-  <cite> 
-    Linda Cai and Clayton Thomas.
     <strong> The Short-Side Advantage in Random Matching Markets. </strong>
-    <a href="./papers/ShortSideAdvantage.pdf">[paper]</a>
+    In submission.
+    <!-- <a href="./papers/ShortSideAdvantage.pdf">[paper]</a> -->
+    <a href="https://arxiv.org/abs/1910.04406">[arXiv]</a>
+    <a href="./talks/ShortSideAdvantagePoster.pdf">[poster]</a>
   </cite>
   <div class="abstract">
     <p>
@@ -174,11 +213,23 @@
   </div>
 
 
-  <h2>
-    <span>
-      Publications
-    </span>
-  </h2>
+
+  <cite> 
+    Linda Cai and Clayton Thomas.
+    <strong> Representing All Stable Matchings by Walking a Maximal Chain. </strong>
+    <!-- <a href="./papers/StableStructureMaxChain.pdf">[paper]</a> -->
+    Mimeo (Survey). <a href="https://arxiv.org/abs/1910.04401">[arXiv]</a>
+  </cite>
+  <div class="abstract">
+    <p>
+    The seminal book of Gusfield and Irving [GI89] provides a compact and algorithmically useful
+    way to represent the collection of stable matches corresponding to a given set of preferences. In
+    this paper, we reinterpret the main results of [GI89], giving a new proof of the characterization
+    which is able to bypass a lot of the “theory building” of the original works. We also provide
+    a streamlined and efficient way to compute this representation. Our proofs and algorithms
+    emphasize the connection to well-known properties of the deferred acceptance algorithm.
+    </p>
+  </div>
 
   <cite id="mrCodesBounded"> 
     V. Gandikota, E. Grigorescu, C. Thomas, and M. Zhu.
@@ -212,6 +263,14 @@
       merit further study.
     </p>
   </div>
+
+  <!--
+  <h2>
+    <span>
+      Publications
+    </span>
+  </h2>
+  -->
 
   <h2>
     <span>
@@ -346,6 +405,9 @@
   </p>
 
   <ul>
+    <li> Sprint 2020: Preceptor for
+      <a href="https://www.cs.princeton.edu/~smattw/Teaching/cos445sp20.htm">
+        COS&nbsp;445 </a> (Economics and Computing) at Princeton.
     <li> Fall 2019: Preceptor for 
       <a href="https://www.cs.princeton.edu/courses/archive/fall19/cos340/index.html">
         COS&nbsp;340 </a> (Reasoning about Computation) at Princeton.
