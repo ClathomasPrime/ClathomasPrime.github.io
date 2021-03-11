@@ -11,7 +11,7 @@ body,html {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   .profile-image {
     text-align: right;
   }
@@ -49,7 +49,9 @@ body,html {
 h1 {
   color: #074e9f;
 }
-h1 span {
+h1 div {
+  /* width: fit-content; */
+  display: inline-block;
   background-color: white;
   padding: 10px 20px 10px 20px;
 }
@@ -57,12 +59,14 @@ h2 {
   background-color: #3872b2;
   padding-left: 80px;
 }
-h2 span {
+h2 div {
+  display: inline-block;
   background-color: white;
-  padding: 20px;
+  padding: 5px 20px;
   color: #3872b2;
 }
 /*h2::before {
+  line-break: anywhere;
   content: "............";
   width: 10px;
   height: 20px;
