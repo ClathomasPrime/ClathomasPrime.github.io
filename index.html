@@ -12,15 +12,24 @@
   </script>
 </head>
 <body>
+<div class="header-image">
+  <!-- <img src="TheNautalis.jpg" alt="The Nautalis in Vedauwoo, Wyoming"
+    title="The Nautalis in Vedauwoo, Wyoming" /> -->
+  <!-- <img src="CollageThree.png"
+    title="Left to right: Snake in the Eagles Shadow in Haycock, PA; Rock
+    Wars in the Red River Gorge, KY; The Rainbow Wall in Red Rocks, NV" /> -->
+  <img src="CollageThreePrime.png"
+    title="Left to right: 
+      Beat Junkie in Rumney, NH;
+      Snake in the Eagles Shadow in Haycock, PA;
+      Rock Wars in the Red River Gorge, KY" />
+</div>
+
 <div class="contents">
 
-  <div class="header-image">
-    <img src="TheNautalis.jpg" alt="The Nautalis in Vedauwoo, Wyoming"
-      title="The Nautalis in Vedauwoo, Wyoming" />
-  </div>
-
   <div class="profile-image">
-    <img src="Profile.jpg" alt="Me, hanging around in Rocktown, GA" />
+    <img src="CT-web.jpg" alt="Headshot" />
+    <!-- <img src="Profile.jpg" alt="Me, hanging around in Rocktown, GA" /> --> 
   </div>
 
   <div class="page-title">
@@ -36,17 +45,21 @@
       Hello! I'm a PhD student in the Computer Science Theory group at Princeton,
       where I'm very fortunate to be advised by Matt Weinberg.
       I try to understand and design algorithms in the presence of 
-      <i>strategic behavior</i>.
-      Specifically, I study algorithmic game theory,
-      mechanism design, and microeconomic theory.
-      Some themes I'm interested in include:
+      strategic behavior
+      (in academic jargon, "mechanism design").
+      Lately, I've been most excited by questions of how these algorithms
+      should <i>be explained to</i> real-world strategic agents.
+      <!-- <i>interact with</i> and -->
+      <!-- Very briefly, these questions are based on the premise that
+      strategyproof mechanisms (those where agents can never benefit from
+      lying) are only useful when the agents involved <i>understand</i> that
+      the mechanism is strategyproof.
+      Other themes I am interested in include
       finding salient contrasts between what can be computed and what can be
-      incentivized;
+      incentivized, and in
       economic problems where new theory is needed to drive
-      real-world mechanisms;
-      and in questions of how these mechanisms should <i>interact with</i> 
-      and <i>be explained to</i> strategic agents.
-      I've worked on these themes in the context of stable matchings,
+      real-world mechanisms. -->
+      Concrete topics I've worked on include stable matchings,
       obviously strategyproof mechanisms, and combinatorial auctions.
     </p>
       <!-- 
@@ -101,8 +114,7 @@
       Purdue University, where I was fortunate to work with
       Elena Grigorescu on error correcting codes.
       My other interests include functional programming, teaching, 
-      rock climbing, and slacklining.
-      <a href="climb/">My climbing homepage</a>.
+      <a href="climb/">rock climbing</a>, and slacklining.
     </p>
     <!-- <a href="cv.pdf">Here's my CV</a> -->
 
@@ -123,12 +135,38 @@
       Publications and Preprints
     </div>
   </h2>
+  <cite> 
+    Linda Cai and Clayton Thomas.
+    <strong> The Short-Side Advantage in Random Matching Markets. </strong>
+    SOSA 22.
+    <!-- <a href="./papers/ShortSideAdvantage.pdf">[paper]</a> -->
+    <a href="https://arxiv.org/abs/1910.04406">[arXiv]</a>
+    <a href="./talks/ShortSideAdvantagePoster.pdf">[2019 poster]</a>
+  </cite>
+  <div class="abstract">
+    <p>
+    A recent breakthrough of Ashlagi, Kanoria, and Leshno [AKL17] found that imbalance in
+    the number of agents on either side of a random matching market has a profound effect on
+    the expected characteristics of the market. Specifically, across all stable matchings, the “long
+    side” (i.e. the side with a greater number of agents) receives significantly worse matches in
+    expectation than the short side. If matchings are found via the classic one-side proposing
+    deferred acceptance algorithm, this indicates that the difference between the proposing and the
+    receiving side is essentially unimportant compared to the difference between the long and the
+    short side.
+    </p>
+    <p>
+    We provide new intuition and a new proof for preliminary results in the direction of [AKL17],
+    namely calculating the expected rank that an agent on the long side has for their optimal stable
+    match.
+    </p>
+  </div>
+
 
   <cite> 
     Aviad Rubinstein, Raghuvansh R. Saxena, Clayton Thomas, S. Mathew
     Weinberg, Junyao Zhao.
     <strong> Exponential Communication Separations between Notions of
-      Selfishness </strong>
+      Selfishness.</strong>
       STOC 2021. <a href="https://arxiv.org/abs/2012.14898">[arXiv]</a>
       <a href="https://www.youtube.com/watch?v=0oJscqR3q-4">[20min talk]</a>
       <a href="talks/SolutionSeparation-STOC-poster.pdf">[poster]</a>
@@ -143,6 +181,8 @@
       is Obviously Strategyproof.
     </strong>
     EC 2021. <a href="https://arxiv.org/abs/2011.12367">[arXiv]</a>
+    <a href="https://www.youtube.com/watch?v=XbZOwqRtMh0">[1min talk]</a>
+    <a href="https://www.youtube.com/watch?v=Ekv2THqSrA8">[20min talk]</a>
   </cite>
   <div class="abstract">
   </div>
@@ -194,39 +234,13 @@
     </p>
   </div>
 
-  <cite> 
-    Linda Cai and Clayton Thomas.
-    <strong> The Short-Side Advantage in Random Matching Markets. </strong>
-    In submission.
-    <!-- <a href="./papers/ShortSideAdvantage.pdf">[paper]</a> -->
-    <a href="https://arxiv.org/abs/1910.04406">[arXiv]</a>
-    <a href="./talks/ShortSideAdvantagePoster.pdf">[poster]</a>
-  </cite>
-  <div class="abstract">
-    <p>
-    A recent breakthrough of Ashlagi, Kanoria, and Leshno [AKL17] found that imbalance in
-    the number of agents on either side of a random matching market has a profound effect on
-    the expected characteristics of the market. Specifically, across all stable matchings, the “long
-    side” (i.e. the side with a greater number of agents) receives significantly worse matches in
-    expectation than the short side. If matchings are found via the classic one-side proposing
-    deferred acceptance algorithm, this indicates that the difference between the proposing and the
-    receiving side is essentially unimportant compared to the difference between the long and the
-    short side.
-    </p>
-    <p>
-    We provide new intuition and a new proof for preliminary results in the direction of [AKL17],
-    namely calculating the expected rank that an agent on the long side has for their optimal stable
-    match.
-    </p>
-  </div>
-
 
 
   <cite> 
     Linda Cai and Clayton Thomas.
     <strong> Representing All Stable Matchings by Walking a Maximal Chain. </strong>
     <!-- <a href="./papers/StableStructureMaxChain.pdf">[paper]</a> -->
-    Mimeo (Survey). <a href="https://arxiv.org/abs/1910.04401">[arXiv]</a>
+    Mimeo. <a href="https://arxiv.org/abs/1910.04401">[arXiv]</a>
   </cite>
   <div class="abstract">
     <p>
