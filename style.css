@@ -89,6 +89,12 @@ cite {
   position: relative;
   text-align: left; 
 }
+cite .initialism {
+  display: none; 
+  /* inline-block;
+  margin-left: -2.5em;
+  position: absolute; */
+}
 cite::before {
   content: "[" counter(reference) "]";
   display: inline-block;
