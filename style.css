@@ -95,8 +95,14 @@ cite .initialism {
   margin-left: -2.5em;
   position: absolute; */
 }
-cite::before {
+cite.paper::before {
   content: "[" counter(reference) "]";
+  display: inline-block;
+  margin-left: -2.5em;
+  position: absolute; 
+}
+cite.other::before {
+  content: "[>]";
   display: inline-block;
   margin-left: -2.5em;
   position: absolute; 
