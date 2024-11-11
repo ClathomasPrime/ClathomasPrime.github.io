@@ -24,7 +24,7 @@ body,html {
 }
 
 .profile-image img {
-  max-height: 300px;
+  max-height: 350px;
   padding:4px;
   border:1px solid #074e9f;
   background-color: white;
