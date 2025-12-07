@@ -90,13 +90,14 @@ cite {
   text-align: left; 
 }
 cite .initialism {
-  display: none; 
-  /* inline-block;
+  display: none;
+  /* display: inline-block;
   margin-left: -2.5em;
   position: absolute; */
 }
 cite.paper::before {
-  content: "[" counter(reference) "]";
+  /* content: "[" counter(reference) "]"; */
+  content: "[>]";
   display: inline-block;
   margin-left: -2.5em;
   position: absolute; 
